@@ -235,14 +235,14 @@ class Interface:
             if nota.get_attribute('value') == 'Sn' and int(intentos) > 0:
                 nota.clear()
                 nota.send_keys(100)
-                table.find_element_by_xpath("//table[@id='table-respuesta-"+table_id+"']/tbody/tr/input[@type='type']").click()
+                table.find_element_by_xpath("//table[@id='table-respuesta-"+table_id+"']/tbody/tr/td[@width='6%']/input[@type='checkbox']").click()
                 table.find_element_by_xpath("//a[@href='javascript:verMasComentariosTareas("+table_id+");']").click()
                 table.find_element_by_xpath("//a[contains(@onclick, 'ComentarioAUser_"+table_id+"')]").click()
                 comentario = table.find_element_by_xpath("//*[@id='ComentarioAUser_"+table_id+"']")
                 comentario.find_element_by_class_name("commentMark").send_keys( self.obteneComentario() )
                 count_qualifity = count_qualifity+1
 
-        messagebox.showinfo(message="Se han calificado: %i" %count_qualifity, title="Mensaje del sistema")
+        #messagebox.showinfo(message="Se han calificado: %i" %count_qualifity, title="Mensaje del sistema")
     
     def obteneComentario(self):
         comentario = open('DB/COMENTARIOS/COMENTARIOS.txt').read().split('\n')
