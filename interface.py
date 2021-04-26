@@ -22,7 +22,7 @@ import platform
 
 #Función para obtener el nuúmero de sigundos trancurridos en el sistema
 import time
-
+import random
 import re
 
 import tkinter as tk
@@ -36,12 +36,11 @@ class Interface:
         self.window.columnconfigure(0, weight=1)
         self.window.rowconfigure(0, weight=1)
         self.window.resizable(0,0)
-        self.agregar_menu()
+        #self.agregar_menu()
 
         #Obtener valores de User y Password
         user_pass = open('DB/USER.txt')
         self.user_pass = user_pass.read().split('|')
-        
         
         #Columna Izquierda
         #Input Usuario
@@ -82,10 +81,11 @@ class Interface:
         self.chosen_evidencia.grid(column=2, row=5, sticky=(W, E))
 
         #File browser Comentarios
-        self.comentario = StringVar()
-        ttk.Label(self.mainframe, text="Comentario por defecto para las calificaciones").grid(column=2, row=6, sticky=(W, E))
-        self.entryFileUpload = ttk.Entry(self.mainframe, textvariable=self.comentario)
+        ttk.Label(self.mainframe, text="Archivo de comentarios").grid(column=2, row=6, sticky=(W, E))
+        self.ruta_comentario = open('DB/COMENTARIOS/RUTA.txt').read()
+        self.entryFileUpload = ttk.Entry(self.mainframe)
         self.entryFileUpload.grid(column=2, row=7, sticky=(W, E))
+        self.entryFileUpload.insert(0, self.ruta_comentario)
 
         #Button action
         ttk.Button(self.mainframe, text="Iniciar", command=self.automatizacion).grid(column=1, row=8, sticky=(W, E))
@@ -113,11 +113,10 @@ class Interface:
         try:
             self.evidencias = self.getDataBase('DB/EVIDENCIAS/'+self.ficha_code+'.txt')
             self.chosen_evidencia['values'] = tuple( self.evidencias )
-            self.chosen_evidencia.current(0)
         except:    
             self.chosen_evidencia['values'] = tuple( [] )
-            self.chosen_evidencia.delete(0)
-            #messagebox.showinfo(message="No existen evidencias para la FICHA "+self.ficha.get(), title="Error del sistema")
+            self.chosen_evidencia.set('')
+            messagebox.showinfo(message="No existen evidencias para la FICHA "+self.ficha.get(), title="Error del sistema")
     
     def observador(self):
         pass
@@ -140,16 +139,16 @@ class Interface:
         #Clic al botón de INGRESO
         browser.find_element_by_css_selector('.boton_verde').click()
 
+        #Obtener el listado de FICHAS y sus respectivos nombres e ID's
+        list_ficha_ids = None
+        while not list_ficha_ids:
+            try:
+                list_ficha_ids = browser.find_elements_by_css_selector('.letras1')
+            except NoSuchElementException:
+                list_ficha_ids = None
+            
         #Actualizar FICHAS.txt
         if self.update_DB.get() == 1:
-            #Obtener el listado de FICHAS y sus respectivos nombres e ID's
-            list_ficha_ids = None
-            while not list_ficha_ids:
-                try:
-                    list_ficha_ids = browser.find_elements_by_css_selector('.letras1')
-                except NoSuchElementException:
-                    list_ficha_ids = None
-            
             DB_file = open('DB/FICHAS/FICHAS.txt', "w")
             for element in list_ficha_ids:
                 text = element.get_attribute("text")
@@ -157,8 +156,7 @@ class Interface:
                 href = href.split("=", 1)[1]
                 DB_file.write( href+'|'+text+'\n' )
             DB_file.close()
-            
-            messagebox.showinfo(message="El archivo FICHAS.txt ha sido actualizado con exito!", title="Actualización de Base de Datos")
+            #messagebox.showinfo(message="El archivo FICHAS.txt ha sido actualizado con exito!", title="Actualización de Base de Datos")
 
         if self.fichas == []:
             messagebox.showerror(message="Ha ocurrido un problema con las FICHAS, por favor vuelva a intentarlo", title="Error del sistema")
@@ -177,16 +175,16 @@ class Interface:
             except:
                 pass
 
+        #Obtener la lista de las evidencias        
+        list_data_select_evidencias = None
+        while not list_data_select_evidencias:
+            try:
+                list_data_select_evidencias = browser.find_elements_by_css_selector('.tituloTarea:first-child')
+            except NoSuchElementException:
+                list_data_select_evidencias = None
+                    
         #Guardar en la DB la lista
         if self.update_DB.get() == 1:
-            #Obtener la lista de las evidencias        
-            list_data_select_evidencias = None
-            while not list_data_select_evidencias:
-                try:
-                    list_data_select_evidencias = browser.find_elements_by_css_selector('.tituloTarea:first-child')
-                except NoSuchElementException:
-                    list_data_select_evidencias = None
-                    
             route = 'DB/EVIDENCIAS/'+self.ficha_code+'.txt'
             DB_file = open(route, "w")
             for element in list_data_select_evidencias:
@@ -241,16 +239,21 @@ class Interface:
                 table.find_element_by_xpath("//a[@href='javascript:verMasComentariosTareas("+table_id+");']").click()
                 table.find_element_by_xpath("//a[contains(@onclick, 'ComentarioAUser_"+table_id+"')]").click()
                 comentario = table.find_element_by_xpath("//*[@id='ComentarioAUser_"+table_id+"']")
-                comentario.find_element_by_class_name("commentMark").send_keys( self.comentario.get() )
+                comentario.find_element_by_class_name("commentMark").send_keys( self.obteneComentario() )
                 count_qualifity = count_qualifity+1
 
         messagebox.showinfo(message="Se han calificado: %i" %count_qualifity, title="Mensaje del sistema")
     
-    def getDataBase(self, file, replacer = False):
+    def obteneComentario(self):
+        comentario = open('DB/COMENTARIOS/COMENTARIOS.txt').read().split('\n')
+        return comentario[ random.randint( 0, len(comentario) ) ]
+        
+    
+    def getDataBase(self, file, separator = '|'):
         arr = []
         with open(file) as inFile:
             arr = [line for line in inFile]
-            arr = [(f.split('|')[0]+'__'+f.split('|')[1]) for f in arr]
+            arr = [(f.split( separator )[0]+'__'+f.split( separator )[1]) for f in arr]
         return arr
         
 aplicacion1=Interface()
