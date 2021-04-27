@@ -24,6 +24,7 @@ import platform
 import time
 import random
 import re
+from datetime import date
 
 import tkinter as tk
 class Interface:
@@ -36,7 +37,6 @@ class Interface:
         self.window.columnconfigure(0, weight=1)
         self.window.rowconfigure(0, weight=1)
         self.window.resizable(0,0)
-        #self.agregar_menu()
 
         #Obtener valores de User y Password
         user_pass = open('DB/USER.txt')
@@ -93,20 +93,6 @@ class Interface:
         ttk.Button(self.mainframe, text="Salir", command=self.window.destroy).grid(column=1, row=10, sticky=(W, E))      
         self.window.mainloop()
     
-    def agregar_menu(self):
-        menubar1 = tk.Menu(self.window)
-        self.window.config(menu=menubar1)
-        opciones1 = tk.Menu(menubar1, tearoff=0)
-        opciones1.add_command(label="Ruta de archivo", command=self.recuperar)
-        menubar1.add_cascade(label="Comentarios", menu=opciones1)  
-    
-    def recuperar(self):
-        upload_file=fd.askopenfilename(initialdir = "/",title = "Seleccione archivo",filetypes = (("txt files","*.txt"),("todos los archivos","*.*")))
-        if upload_file!='':
-            name_upload_file = open(upload_file, "r", encoding="utf-8")
-            name_upload_file.close()
-            self.entryFileUpload.config(textvariable=name_upload_file)
-    
     def cargarEvidencia(self, event):
         self.ficha_code = event.widget.get().split('__', 1)[0]
         self.evidencias = []
@@ -118,27 +104,113 @@ class Interface:
             self.chosen_evidencia.set('')
             messagebox.showinfo(message="No existen evidencias para la FICHA "+self.ficha.get(), title="Error del sistema")
     
-    def observador(self):
-        pass
-    
-    def automatizacion(self):
+    def auth(self):
         #Configurar Platform
         plataforma = platform.system()
         path_to_chromedriver = "EXE\chromedriver.exe"
 
-        browser = webdriver.Chrome(executable_path = path_to_chromedriver)
+        self.browser = webdriver.Chrome(executable_path = path_to_chromedriver)
 
         #URL que se quiere abrir
         url = 'https://sena.territorio.la/index.php?login=true'
-        browser.get(url)
+        self.browser.get(url)
 
         #Asignar los valores al formulario de inicio de sesión
-        browser.find_element_by_name('document').send_keys( self.user.get() )
-        browser.find_element_by_name('password').send_keys( self.passw.get() )
+        self.browser.find_element_by_name('document').send_keys( self.user.get() )
+        self.browser.find_element_by_name('password').send_keys( self.passw.get() )
 
         #Clic al botón de INGRESO
-        browser.find_element_by_css_selector('.boton_verde').click()
+        self.browser.find_element_by_css_selector('.boton_verde').click()
+    
+    def observador(self):
+        #Autentificar al usuario
+        self.auth()
+        
+        for ficha in self.fichas:
+            array_ficha = ficha.split('__')
+            print(array_ficha[1])
+            try:
+                print("A ver que hace esto")
+                evidencia_actual = self.getDataBase( 'DB/EVIDENCIAS/'+array_ficha[0]+'.txt' )
+                
+                #Redireccionar al listado de evidencias pertenecientes a la ficha
+                #self.dirigir_a_evidencias( 'https://sena.territorio.la/perfil.php?id='+ array_ficha[0])
+                time.sleep(2)
+                self.browser.get( 'https://sena.territorio.la/perfil.php?id='+ array_ficha[0] )
+                print('URL____________')
+                #Dar clic en Evidencias
+                salida = None
+                print('INTENTO')
+                while not salida:
+                    try:
+                        
+                        self.browser.find_element_by_id('aTareas').click()
+                        salida = True
+                    except:
+                        pass
+                print('Me voy a '+array_ficha[1])
+                
+                for evidencia in evidencia_actual:
+                    e = evidencia.split('__')
+                    print('Comienzo')
+                    #Dar clic en la Evidencia que se desea comenzara a calificar
+                    salida = None
+                    while not salida:
+                        try:
+                            self.browser.find_element_by_xpath("//a[contains(@onclick,'"+e[0]+"')]").click()
+                            salida = True
+                        except:
+                            salida = None
+                    
+                    #Get all elements of father div #formCalificar
+                    list_tables = None
+                    while not list_tables:
+                        try:
+                            list_tables = self.browser.find_elements_by_css_selector("#formCalificar > table")
+                        except NoSuchElementException:
+                            list_tables = None
+                    
+                    #Cantidad de Registros calificados
+                    count_qualifity = 0
 
+                    print('Continuo')
+                    for table in list_tables:
+                        table_id = table.get_attribute('id').split('table-respuesta-', 1)[1]
+                        print('Valido')
+                        intentos = None
+                        while not intentos:
+                            try:
+                                intentos = table.find_element_by_xpath("//table[@id='table-respuesta-"+table_id+"']/tbody/tr/td[@width='30%']/p").text.split(":")[-1].strip()
+                            except NoSuchElementException:
+                                intentos = table.find_element_by_xpath("//table[@id='table-respuesta-"+table_id+"']/tbody/tr/td[@width='30%']/span/p").text.split(":")[-1].strip()
+                        
+                        nota = table.find_element_by_xpath("//table[@id='table-respuesta-"+table_id+"']/tbody/tr/td[@width='6%']/input[@type='text']")
+
+                        if nota.get_attribute('value') == 'Sn' and int(intentos) > 0:
+                            count_qualifity = count_qualifity+1       
+                            estudiante = table.find_element_by_xpath("//table[@id='table-respuesta-"+table_id+"']/tbody/tr/td[@width='59%']").text
+                            
+                            reporte = open('DB/REPORTE/'+array_ficha[1].replace('\n', '')+'/'+e[1].replace('\n', '')+'.txt', "w")
+                            reporte.write( estudiante+'\n' )
+                            reporte.close()
+                        
+                        reporte = open('DB/REPORTE/REPORTE.txt', "w")
+                        reporte.write( array_ficha[1].replace('\n', '')+'|'+e[1].replace('\n', '')+'|'+str(count_qualifity)+'\n' )
+                        reporte.close()
+                    
+                    #Redireccionar al listado de evidencias pertenecientes a la ficha
+                    self.dirigir_a_evidencias( 'https://sena.territorio.la/perfil.php?id='+ array_ficha[0])
+                
+            except FileNotFoundError:
+                messagebox.showerror(message="El archivo DB/EVIDENCIAS/"+array_ficha[0]+".txt de la FICHA "+array_ficha[1]+" no existe", title="Error del sistema")
+        
+    def automatizacion(self):
+        
+        #Autentificar al usuario
+        self.auth()
+        
+        browser = self.browser    
+        
         #Obtener el listado de FICHAS y sus respectivos nombres e ID's
         list_ficha_ids = None
         while not list_ficha_ids:
@@ -146,7 +218,7 @@ class Interface:
                 list_ficha_ids = browser.find_elements_by_css_selector('.letras1')
             except NoSuchElementException:
                 list_ficha_ids = None
-            
+        
         #Actualizar FICHAS.txt
         if self.update_DB.get() == 1:
             DB_file = open('DB/FICHAS/FICHAS.txt', "w")
@@ -156,24 +228,13 @@ class Interface:
                 href = href.split("=", 1)[1]
                 DB_file.write( href+'|'+text+'\n' )
             DB_file.close()
-            #messagebox.showinfo(message="El archivo FICHAS.txt ha sido actualizado con exito!", title="Actualización de Base de Datos")
 
         if self.fichas == []:
             messagebox.showerror(message="Ha ocurrido un problema con las FICHAS, por favor vuelva a intentarlo", title="Error del sistema")
             browser.quit()
         
-        #Dirigirse al enlace de la ficha la cual se quiere calificar
-        url = "https://sena.territorio.la/perfil.php?id="+self.ficha_code
-        browser.get( url )
-        
-        #Dar clic en Evidencias
-        salida = None
-        while not salida:
-            try:
-                browser.find_element_by_id('aTareas').click()
-                salida = True
-            except:
-                pass
+        #Redireccionar al listado de evidencias pertenecientes a la ficha
+        self.dirigir_a_evidencias( 'https://sena.territorio.la/perfil.php?id='+self.ficha_code )
 
         #Obtener la lista de las evidencias        
         list_data_select_evidencias = None
@@ -185,8 +246,7 @@ class Interface:
                     
         #Guardar en la DB la lista
         if self.update_DB.get() == 1:
-            route = 'DB/EVIDENCIAS/'+self.ficha_code+'.txt'
-            DB_file = open(route, "w")
+            DB_file = open( 'DB/EVIDENCIAS/'+self.ficha_code+'.txt', "w" )
             for element in list_data_select_evidencias:
                 text = element.get_attribute("text")
                 text = re.sub("\s+", " ", text.strip())
@@ -239,15 +299,26 @@ class Interface:
                 table.find_element_by_xpath("//a[@href='javascript:verMasComentariosTareas("+table_id+");']").click()
                 table.find_element_by_xpath("//a[contains(@onclick, 'ComentarioAUser_"+table_id+"')]").click()
                 comentario = table.find_element_by_xpath("//*[@id='ComentarioAUser_"+table_id+"']")
-                comentario.find_element_by_class_name("commentMark").send_keys( self.obteneComentario() )
+                comentario.find_element_by_class_name("commentMark").send_keys( self.obtenerComentario() )
                 count_qualifity = count_qualifity+1
 
         #messagebox.showinfo(message="Se han calificado: %i" %count_qualifity, title="Mensaje del sistema")
     
-    def obteneComentario(self):
-        comentario = open('DB/COMENTARIOS/COMENTARIOS.txt').read().split('\n')
+    def obtenerComentario(self):
+        comentario = open(self.ruta_comentario, encoding='utf-8').read().split('\n')
         return comentario[ random.randint( 0, len(comentario) ) ]
         
+    def dirigir_a_evidencias(self, url):
+        time.sleep(1)
+        self.browser.get( url )
+        #Dar clic en Evidencias
+        salida = None
+        while not salida:
+            try:
+                self.browser.find_element_by_id('aTareas').click()
+                salida = True
+            except:
+                pass
     
     def getDataBase(self, file, separator = '|'):
         arr = []
