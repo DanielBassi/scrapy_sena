@@ -138,7 +138,7 @@ class Interface:
         #Abrir archivo de reportes
         reporte = open('DB/REPORTE/REPORTE.txt', "w")
         
-        while revisado_total = 0:
+        while revisado_total == 0:
             for ficha in self.fichas:
                 array_ficha = ficha.split('__')
                 try:
