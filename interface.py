@@ -17,6 +17,13 @@ from selenium.common.exceptions import NoSuchElementException
 
 from tkinter import messagebox
 
+#Correo
+import smtplib
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
+from email.mime.base import MIMEBase
+from email.encoders import encode_base64
+
 #Importar Modulo PLatform para obtener información del ordenador
 import platform
 
@@ -126,83 +133,88 @@ class Interface:
         #Autentificar al usuario
         self.auth()
         
-        for ficha in self.fichas:
-            array_ficha = ficha.split('__')
-            print(array_ficha[1])
-            try:
-                print("A ver que hace esto")
-                evidencia_actual = self.getDataBase( 'DB/EVIDENCIAS/'+array_ficha[0]+'.txt' )
-                
-                #Redireccionar al listado de evidencias pertenecientes a la ficha
-                #self.dirigir_a_evidencias( 'https://sena.territorio.la/perfil.php?id='+ array_ficha[0])
-                time.sleep(2)
-                self.browser.get( 'https://sena.territorio.la/perfil.php?id='+ array_ficha[0] )
-                print('URL____________')
-                #Dar clic en Evidencias
-                salida = None
-                print('INTENTO')
-                while not salida:
-                    try:
-                        
-                        self.browser.find_element_by_id('aTareas').click()
-                        salida = True
-                    except:
-                        pass
-                print('Me voy a '+array_ficha[1])
-                
-                for evidencia in evidencia_actual:
-                    e = evidencia.split('__')
-                    print('Comienzo')
-                    #Dar clic en la Evidencia que se desea comenzara a calificar
+        revisado_total = 0
+        
+        #Abrir archivo de reportes
+        reporte = open('DB/REPORTE/REPORTE.txt', "w")
+        
+        while revisado_total = 0:
+            for ficha in self.fichas:
+                array_ficha = ficha.split('__')
+                try:
+                    evidencia_actual = self.getDataBase( 'DB/EVIDENCIAS/'+array_ficha[0]+'.txt' )
+                    
+                    #Redireccionar al listado de evidencias pertenecientes a la ficha
+                    #self.dirigir_a_evidencias( 'https://sena.territorio.la/perfil.php?id='+ array_ficha[0])
+                    time.sleep(2)
+                    self.browser.get( 'https://sena.territorio.la/perfil.php?id='+ array_ficha[0] )
+                    #Dar clic en Evidencias
                     salida = None
                     while not salida:
                         try:
-                            self.browser.find_element_by_xpath("//a[contains(@onclick,'"+e[0]+"')]").click()
+                            
+                            self.browser.find_element_by_id('aTareas').click()
                             salida = True
                         except:
-                            salida = None
+                            pass
                     
-                    #Get all elements of father div #formCalificar
-                    list_tables = None
-                    while not list_tables:
-                        try:
-                            list_tables = self.browser.find_elements_by_css_selector("#formCalificar > table")
-                        except NoSuchElementException:
-                            list_tables = None
-                    
-                    #Cantidad de Registros calificados
-                    count_qualifity = 0
-
-                    print('Continuo')
-                    for table in list_tables:
-                        table_id = table.get_attribute('id').split('table-respuesta-', 1)[1]
-                        print('Valido')
-                        intentos = None
-                        while not intentos:
+                    for evidencia in evidencia_actual:
+                        e = evidencia.split('__')
+                        #Dar clic en la Evidencia que se desea comenzara a calificar
+                        salida = None
+                        while not salida:
                             try:
-                                intentos = table.find_element_by_xpath("//table[@id='table-respuesta-"+table_id+"']/tbody/tr/td[@width='30%']/p").text.split(":")[-1].strip()
+                                self.browser.find_element_by_xpath("//a[contains(@onclick,'"+e[0]+"')]").click()
+                                salida = True
+                            except:
+                                salida = None
+                        
+                        #Get all elements of father div #formCalificar
+                        list_tables = None
+                        while not list_tables:
+                            try:
+                                list_tables = self.browser.find_elements_by_css_selector("#formCalificar > table")
                             except NoSuchElementException:
-                                intentos = table.find_element_by_xpath("//table[@id='table-respuesta-"+table_id+"']/tbody/tr/td[@width='30%']/span/p").text.split(":")[-1].strip()
+                                list_tables = None
                         
-                        nota = table.find_element_by_xpath("//table[@id='table-respuesta-"+table_id+"']/tbody/tr/td[@width='6%']/input[@type='text']")
-
-                        if nota.get_attribute('value') == 'Sn' and int(intentos) > 0:
-                            count_qualifity = count_qualifity+1       
-                            estudiante = table.find_element_by_xpath("//table[@id='table-respuesta-"+table_id+"']/tbody/tr/td[@width='59%']").text
+                        #Cantidad de Registros calificados
+                        count_qualifity = 0
+                        
+                        for table in list_tables:
+                            table_id = table.get_attribute('id').split('table-respuesta-', 1)[1]
+                            intentos = None
+                            while not intentos:
+                                try:
+                                    intentos = table.find_element_by_xpath("//table[@id='table-respuesta-"+table_id+"']/tbody/tr/td[@width='30%']/p").text.split(":")[-1].strip()
+                                except NoSuchElementException:
+                                    intentos = table.find_element_by_xpath("//table[@id='table-respuesta-"+table_id+"']/tbody/tr/td[@width='30%']/span/p").text.split(":")[-1].strip()
                             
-                            reporte = open('DB/REPORTE/'+array_ficha[1].replace('\n', '')+'/'+e[1].replace('\n', '')+'.txt', "w")
-                            reporte.write( estudiante+'\n' )
-                            reporte.close()
+                            nota = table.find_element_by_xpath("//table[@id='table-respuesta-"+table_id+"']/tbody/tr/td[@width='6%']/input[@type='text']")
+
+                            if nota.get_attribute('value') == 'Sn' and int(intentos) > 0:
+                                count_qualifity = count_qualifity + 1      
+                                revisado_total = revisado_total + 1 
+                                estudiante = table.find_element_by_xpath("//table[@id='table-respuesta-"+table_id+"']/tbody/tr/td[@width='59%']").text
+                                
+                                reporte_individual = open('DB/REPORTE/'+array_ficha[1].replace('\n', '')+'/'+e[1].replace('\n', '')+'.txt', "w")
+                                reporte_individual.write( estudiante+'\n' )
+                                reporte_individual.close()
+                            
+                            
+                        if count_qualifity > 0:
+                            reporte.write( array_ficha[1].replace('\n', '')+'|'+e[1].replace('\n', '')+'|'+str(count_qualifity)+'\n' )
                         
-                        reporte = open('DB/REPORTE/REPORTE.txt', "w")
-                        reporte.write( array_ficha[1].replace('\n', '')+'|'+e[1].replace('\n', '')+'|'+str(count_qualifity)+'\n' )
-                        reporte.close()
+                        #Redireccionar al listado de evidencias pertenecientes a la ficha
+                        self.dirigir_a_evidencias( 'https://sena.territorio.la/perfil.php?id='+ array_ficha[0])
                     
-                    #Redireccionar al listado de evidencias pertenecientes a la ficha
-                    self.dirigir_a_evidencias( 'https://sena.territorio.la/perfil.php?id='+ array_ficha[0])
-                
-            except FileNotFoundError:
-                messagebox.showerror(message="El archivo DB/EVIDENCIAS/"+array_ficha[0]+".txt de la FICHA "+array_ficha[1]+" no existe", title="Error del sistema")
+                except FileNotFoundError:
+                    messagebox.showerror(message="El archivo DB/EVIDENCIAS/"+array_ficha[0]+".txt de la FICHA "+array_ficha[1]+" no existe", title="Error del sistema")
+            
+        #Cerrar el archivo de reportes
+        reporte.close()
+        
+        if revisado_total > 0:
+            self.enviar_correo()
         
     def automatizacion(self):
         
@@ -326,5 +338,23 @@ class Interface:
             arr = [line for line in inFile]
             arr = [(f.split( separator )[0]+'__'+f.split( separator )[1]) for f in arr]
         return arr
+    
+    def enviar_correo():
+        me = "danielalbor22.@gmail.com"
+        my_password = "1043026986"
+        you = "zluisigloxx@gmail.com"
+        msg = MIMEMultipart()#'alternative'
+        msg['Subject'] = "Reporte BOT - Sena"
+        msg['From'] = me
+        msg['To'] = you
+        part = MIMEBase('application', "octet-stream")
+        part.set_payload(open("DB/COMENTARIOS/COMENTARIOS.txt", "rb").read())
+        encode_base64(part)
+        part.add_header('Content-Disposition', 'attachment; filename="REPORTE.txt"')
+        msg.attach(part)
+        s = smtplib.SMTP_SSL('smtp.gmail.com')
+        s.login(me, my_password)
+        s.sendmail(me, you, msg.as_string())
+        s.quit()
         
 aplicacion1=Interface()
