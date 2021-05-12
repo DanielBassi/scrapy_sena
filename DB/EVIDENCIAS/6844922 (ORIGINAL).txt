@@ -1,0 +1,45 @@
+55327012|AP09-AA10-EV02. Diseño y ejecución de plan de pruebas del sistema de información.
+55327022|AP09-AA10-EV03. Elaboración del manual de usuario y manual de configuración del sistema.
+55327032|AP09-AA10-EV04. Diseño del plan de mantenimiento del sistema de información.
+55327052|AP09-AA10-EV06. Inglés. Encuentro sincrónico: intercambios, opiniones y debates.
+55327117|AP10-AA11-EV02. Elaboración del informe administrativo y técnico del sistema de información desarrollado.
+55326722|AP06-AA7-EV02. Lenguaje Estructurado de Consultas SQL.
+55326732|AP06-AA7-EV03. Diseño y desarrollo de la interfaz web del proyecto en curso.
+55326762|AP06-AA7-EV06. Inglés Taller: ?Reconociendo el lugar de trabajo?.
+55326822|AP07-AA8-EV02. Codificación de los módulos del sistema de información en el lenguaje seleccionado
+55326842|AP07-AA8-EV04. Transversal- Cartilla: Técnicas de cultura física en el desempeño laboral
+55326902|AP08-AA9-EV02. Informe cumplimiento de la negociación tecnológica.
+55326912|AP08-AA9-EV03. Determinar cumplimiento de calidad
+55326932|AP08-AA9-EV05. Inglés - Taller de aplicación de estrategias para la comprensión de textos técnicos en inglés
+55326942|AP08-AA9-EV06. Inglés - Presentación oral: mi idea de proyecto.
+55326597|AP05-AA6-EV02. Diseño de arquitectura de software y hardware para el sistema de información en desarrollo.
+55326607|AP05-AA6-EV03. Identificación de los puntos críticos del sistema de información en desarrollo.
+55326617|AP05-AA6-EV04. Elaboración de cláusulas técnicas para contratación del hardware, software y servicios requeridos para el sistema de información en desarrollo.
+55326637|AP05-AA6-EV06. Inglés. Construcción de un glosario técnico en inglés para el área ocupacional.
+55326647|AP05-AA6-EV07. Transversal. Estudio de caso ?Residuos pos consumo?.
+55326332|AP03-AA4-EV02. Especificación del modelo conceptual del sistema de información a desarrollar
+55326352|AP03-AA4-EV04. Inglés - Elaboración de resúmenes para comprender textos básicos en inglés.
+55326362|AP03-AA4-EV05. Inglés - Conversación sobre gustos, intereses y preferencias.
+55326382|AP03-AA4-EV07. Transversal- Escrito. ?Trabajo en equipo y resolución de conflictos?.
+55326452|AP04-AA5-EV02. Elaboración del prototipo del sistema de información a desarrollar.
+55326472|AP04-AA5-EV04. Elaboración de términos de referencia.
+55326482|AP04-AA5-EV05. Inglés - Elaboración de un manual técnico.
+55326492|AP04-AA5-EV06. Transversal - Ensayo la importancia de la comunicación asertiva.
+55326512|AP04-AA5-EV08. Transversal. Estudio de Caso ?DISTRIMAY?.
+55326112|AP01-AA1-EV07. Identificación del proceso de software para el proyecto de desarrollo en curso
+55326122|AP01-AA1-EV08. Transversal-Ética.-Taller Usabilidad del bien visión ética.
+55326092|AP01-AA2-EV05. Especificación de los requerimientos funcionales y no funcionales del sistema.
+55326132|AP01-AA2-EV09. Inglés-Postulación para práctica laboral. "Filling out an internship application form?.
+55326142|AP01-AA2-EV10. Transversal-Emprendimiento. Matriz DOFA, mi proyecto de vida
+55326237|AP02-AA3-AV04. Determinación de las tecnologías de hardware, software y servicios requeridos para el proyecto en desarrollo.
+55326217|AP02-AA3-EV02. Especificación de requerimientos con casos de uso.
+55326247|AP02-AA3-EV05. Transversal- Matriz de Riesgo.(Identificación de peligros, valoración y determinación de controles de los riesgos).
+55326257|AP02-AA3-EV06. Transversal-Brochure Interactivo con planteamiento de coordinación motriz fina y gruesa.
+55325657|Representación gráfica: Reconociendo mi ambiente formativo
+55325757|Resumen: Proyección de elección alternativa productiva
+55326052|AP01-AA1-EV01. Identificación de la necesidad de sistemas de información.
+55326062|AP01-AA1-EV02. Estructuración del proyecto del sistema en desarrollo.
+55326082|AP01-AA1-EV04. Levantamiento del mapa de procesos del sistema en desarrollo.
+55325647|Estudio de caso: La oportunidad de formarme
+55325747|Portafolio: Mis evidencias
+55325697|Relato: Trabajo colaborativo

@@ -1,0 +1,5 @@
+54208632|Portafolio: Mis evidencias
+54208642|Resumen: Proyección de elección alternativa productiva
+54208932|AP01-AA1-EV01. Identificación de la necesidad de sistemas de información.
+54208942|AP01-AA1-EV02. Estructuración del proyecto del sistema en desarrollo.
+54208972|AP01-AA2-EV05. Especificación de los requerimientos funcionales y no funcionales del sistema.

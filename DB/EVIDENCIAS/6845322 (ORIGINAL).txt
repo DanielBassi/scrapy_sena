@@ -1,0 +1,98 @@
+55481707|Evidencia 3: Fase I, Análisis DOFA del entorno
+55481717|Evidencia 4: Fase II, Planeación estratégica
+55481727|Evidencia 5: Fase III, Integración de áreas involucradas en el servicio al cliente
+55481737|Evidencia 6: Fase IV, Plan maestro
+55481747|Evidencia 7: Taller "Talking about Logistics, workshop"
+55481487|Evidencia 1: Artículo ?Trazabilidad organizacional?
+55481497|Evidencia 2: Cuadros comparativos ?Trazabilidad?
+55481587|Evidencia 2: Gráfica ?Sistemas de información?
+55481387|Evidencia 2: Matriz de riesgos
+55481507|Evidencia 3: Casos empresariales
+55481597|Evidencia 3: Diseño ?Cuadro de Mando Integral o Balance Score Card?
+55481247|Evidencia 3: Ejercicio periodístico ?Normas nacionales e internacionales que rigen la clasificación arancelaria de mercancías?
+55481397|Evidencia 3: Ficha antropológica y test físico
+55481517|Evidencia 4: Ejercicio práctico
+55481607|Evidencia 4: Informe ?Diagnóstico ejecutivo?
+55481257|Evidencia 4: Los derechos humanos en el marco personal y en el ejercicio de mi profesión
+55481407|Evidencia 4: Taller ?Safety signs?
+55481617|Evidencia 5: Encuesta ?Valoración y propuestas de mejora para el trabajo en equipo de una organización?
+55481417|Evidencia 5: Manual de seguridad y seguimiento
+55481267|Evidencia 5: Summary ?Export-import theory?
+55481277|Evidencia 6: Ejercicio práctico ?Identificación de la posición arancelaria de su producto y requisitos asociados?
+55481427|Evidencia 6: Reporte de un accidente
+55481287|Evidencia 7: Ficha ?valores y principios éticos profesionales?
+55481437|Evidencia 7: Video "Hábitos saludables y cultura física"
+55481297|Evidencia 8: Presentation ?Steps to export?
+55480982|Evidencia 1: Artículo ?Tecnologías de la Información y la Comunicación?
+55481227|Evidencia 1: Asesoría ?Caso exportación?
+55480872|Evidencia 1: Taller "Generalidades de la gestión del talento humano y sus subprocesos"
+55480992|Evidencia 2: Cuadro comparativo ?Tecnologías de la Información y la Comunicación?
+55481102|Evidencia 2: Infografía ?Índices de gestión de servicio?
+55481237|Evidencia 2: Presentación "Ruta importadora"
+55480892|Evidencia 3: Informe ?Definiendo y desarrollando habilidades para una comunicación asertiva y eficaz?
+55481002|Evidencia 3: Taller ?Plan de integración y TIC?
+55481112|Evidencia 3: Workshop ?Customer satisfaction tools?
+55481012|Evidencia 4: Reading Workshop: Inferring from context
+55481122|Evidencia 4: Video ?Servicio al cliente?
+55481022|Evidencia 5: Estudio de casos ?Situaciones empresariales?
+55480912|Evidencia 5: Propuesta "Estructuración y definición de políticas de talento humano"
+55481132|Evidencia 5: Workshop ?Using verbs to build customer satisfaction tools?
+55481032|Evidencia 6: Ejercicio práctico ?Empresa San Lucas"
+55480922|Evidencia 6: Programa de capacitación en comunicación asertiva
+55481142|Evidencia 6: Propuesta ?Comercio electrónico?
+55480627|Evidencia 1: Artículo ?Presupuestos?
+55480757|Evidencia 1: Video ?Puntos críticos en actores de la cadena de abastecimiento?
+55480767|Evidencia 2: Describing and comparing products
+55480437|Evidencia 2: Taller "Lead Time aplicado"
+55480537|Evidencia 2: Workshop: Understanding the distribution center layout
+55480647|Evidencia 3: Cuadro comparativo ?Indicadores de gestión logísticos?
+55480447|Evidencia 3: Infografía "Estrategia global de distribución"
+55480777|Evidencia 3: Propuesta ?Estructuración del sistema de trazabilidad?
+55480547|Evidencia 3: Video ?Pausas activas en entornos laborales?
+55480457|Evidencia 4: Diseño del plan de ruta y red geográfica de transporte
+55480657|Evidencia 4: Presentación ?Importancia y transcendencia de los valores éticos empresariales?
+55480557|Evidencia 4: Propuesta ?Diseño de un Centro de Distribución (CEDI)?
+55480792|Evidencia 4: Sesión virtual ?Indicadores de gestión?
+55480377|Evidencia 5: Manual ?Procesos y procedimientos logísticos?
+55480567|Evidencia 5: Modelo de un Centro de Distribución
+55480667|Evidencia 5: Taller ?Indicadores de gestión logística?
+55480677|Evidencia 6: Ejercicio práctico ?Presupuestos para la empresa LPQ Maderas de Colombia?
+55480687|Evidencia 7: Afiche ?Misión, visión y valores corporativos?
+55480697|Evidencia 8: Sesión virtual ?Incidencia de los costos logísticos en la DFI?
+55480227|Evidencia 1: Cuadro comparativo ?Medios y modos de transporte?
+55480092|Evidencia 1: Flujograma ?Procesos de la cadena logística y el marco estratégico institucional?
+55480337|Evidencia 1: Presentación ?Caracterización de la empresa?
+55479992|Evidencia 2: ?Business meeting workshop?
+55480237|Evidencia 2: Diagrama de flujo ?Importancia del medioambiente en la empresa?
+55480347|Evidencia 2: Perfil de clientes y proveedores
+55479902|Evidencia 3: Análisis de caso ?Generalidades de la oferta y la demanda?
+55480357|Evidencia 3: Informe ?Identificación de las tecnologías de la información?
+55480112|Evidencia 3: La planeación estratégica y la gestión logística
+55480002|Evidencia 3: Taller "Caso laboratorio farmacéutico"
+55480247|Evidencia 4: Artículo ?Canales y redes de distribución?
+55479912|Evidencia 4: Diagnóstico de necesidades de los clientes
+55480012|Evidencia 4: Informe "Actividad de Investigación"
+55480367|Evidencia 4: Propuesta ?Caso pio pio y más pio?
+55479922|Evidencia 5: Ejercicio práctico ?Proyección de la oferta y la demanda?
+55480267|Evidencia 5: Reading workshop: international transport
+55480132|Evidencia 5: Workshop: Getting started as a translator
+55480142|Evidencia 6: Propuesta ?Plan maestro y estrategias de distribución logística?
+55480277|Evidencia 6: Proyecto ?Plan de Manejo Ambiental (PMA)"
+55480152|Evidencia 7: Agenda de trabajo ?Solución de conflictos para equipos de trabajo interdisciplinarios?
+55480287|Evidencia 7: Análisis de caso ?Identificación de modos y medios de transporte?
+55479702|Evidencia 4: Cuestionario ?Análisis DOFA?
+55479832|Evidencia 6: Presentación ?Logística para la distribución de un producto?
+55479882|Evidencia 1: Actores de la cadena de abastecimiento
+55479782|Evidencia 1: Ensayo ?La importancia de las redes de transporte?
+55479672|Evidencia 1: Mapa conceptual ?El sistema financiero colombiano?
+55479682|Evidencia 2: Presentación ?Comportamiento del mercado internacional?
+55479692|Evidencia 3: ?Introducing yourself to a prospective employer?
+55479812|Evidencia 4: Resumen ?Product distribution: the basics?
+55479822|Evidencia 5: Centro de distribución
+55479712|Evidencia 5: Propuesta comercial
+55479722|Evidencia 6: Matriz ?Mi DOFA, mi proyecto de vida?
+55479372|Estudio de caso: La oportunidad de formarme
+55479382|Representación gráfica: Reconociendo mi ambiente formativo
+55479472|Portafolio: Mis evidencias
+55479422|Relato: Trabajo colaborativo
+55479482|Resumen: Proyección de elección alternativa productiva

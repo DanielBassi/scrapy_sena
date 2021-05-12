@@ -1,0 +1,98 @@
+55725742|Evidencia 2: Gráfica ?Sistemas de información?
+55725752|Evidencia 3: Diseño ?Cuadro de Mando Integral o Balance Score Card?
+55725862|Evidencia 3: Fase I, Análisis DOFA del entorno
+55725872|Evidencia 4: Fase II, Planeación estratégica
+55725762|Evidencia 4: Informe ?Diagnóstico ejecutivo?
+55725772|Evidencia 5: Encuesta ?Valoración y propuestas de mejora para el trabajo en equipo de una organización?
+55725882|Evidencia 5: Fase III, Integración de áreas involucradas en el servicio al cliente
+55725892|Evidencia 6: Fase IV, Plan maestro
+55725902|Evidencia 7: Taller "Talking about Logistics, workshop"
+55725642|Evidencia 1: Artículo ?Trazabilidad organizacional?
+55725382|Evidencia 1: Asesoría ?Caso exportación?
+55725652|Evidencia 2: Cuadros comparativos ?Trazabilidad?
+55725542|Evidencia 2: Matriz de riesgos
+55725392|Evidencia 2: Presentación "Ruta importadora"
+55725662|Evidencia 3: Casos empresariales
+55725402|Evidencia 3: Ejercicio periodístico ?Normas nacionales e internacionales que rigen la clasificación arancelaria de mercancías?
+55725552|Evidencia 3: Ficha antropológica y test físico
+55725672|Evidencia 4: Ejercicio práctico
+55725412|Evidencia 4: Los derechos humanos en el marco personal y en el ejercicio de mi profesión
+55725562|Evidencia 4: Taller ?Safety signs?
+55725572|Evidencia 5: Manual de seguridad y seguimiento
+55725422|Evidencia 5: Summary ?Export-import theory?
+55725292|Evidencia 5: Workshop ?Using verbs to build customer satisfaction tools?
+55725432|Evidencia 6: Ejercicio práctico ?Identificación de la posición arancelaria de su producto y requisitos asociados?
+55725302|Evidencia 6: Propuesta ?Comercio electrónico?
+55725582|Evidencia 6: Reporte de un accidente
+55725442|Evidencia 7: Ficha ?valores y principios éticos profesionales?
+55725592|Evidencia 7: Video "Hábitos saludables y cultura física"
+55725452|Evidencia 8: Presentation ?Steps to export?
+55725142|Evidencia 1: Artículo ?Tecnologías de la Información y la Comunicación?
+55725032|Evidencia 1: Taller "Generalidades de la gestión del talento humano y sus subprocesos"
+55724922|Evidencia 1: Video ?Puntos críticos en actores de la cadena de abastecimiento?
+55725152|Evidencia 2: Cuadro comparativo ?Tecnologías de la Información y la Comunicación?
+55724932|Evidencia 2: Describing and comparing products
+55725262|Evidencia 2: Infografía ?Índices de gestión de servicio?
+55725052|Evidencia 3: Informe ?Definiendo y desarrollando habilidades para una comunicación asertiva y eficaz?
+55724942|Evidencia 3: Propuesta ?Estructuración del sistema de trazabilidad?
+55725162|Evidencia 3: Taller ?Plan de integración y TIC?
+55725272|Evidencia 3: Workshop ?Customer satisfaction tools?
+55725172|Evidencia 4: Reading Workshop: Inferring from context
+55724952|Evidencia 4: Sesión virtual ?Indicadores de gestión?
+55725282|Evidencia 4: Video ?Servicio al cliente?
+55725182|Evidencia 5: Estudio de casos ?Situaciones empresariales?
+55725072|Evidencia 5: Propuesta "Estructuración y definición de políticas de talento humano"
+55725192|Evidencia 6: Ejercicio práctico ?Empresa San Lucas"
+55725082|Evidencia 6: Programa de capacitación en comunicación asertiva
+55724792|Evidencia 1: Artículo ?Presupuestos?
+55724502|Evidencia 1: Presentación ?Caracterización de la empresa?
+55724512|Evidencia 2: Perfil de clientes y proveedores
+55724602|Evidencia 2: Taller "Lead Time aplicado"
+55724702|Evidencia 2: Workshop: Understanding the distribution center layout
+55724812|Evidencia 3: Cuadro comparativo ?Indicadores de gestión logísticos?
+55724612|Evidencia 3: Infografía "Estrategia global de distribución"
+55724522|Evidencia 3: Informe ?Identificación de las tecnologías de la información?
+55724712|Evidencia 3: Video ?Pausas activas en entornos laborales?
+55724622|Evidencia 4: Diseño del plan de ruta y red geográfica de transporte
+55724822|Evidencia 4: Presentación ?Importancia y transcendencia de los valores éticos empresariales?
+55724532|Evidencia 4: Propuesta ?Caso pio pio y más pio?
+55724722|Evidencia 4: Propuesta ?Diseño de un Centro de Distribución (CEDI)?
+55724542|Evidencia 5: Manual ?Procesos y procedimientos logísticos?
+55724732|Evidencia 5: Modelo de un Centro de Distribución
+55724832|Evidencia 5: Taller ?Indicadores de gestión logística?
+55724842|Evidencia 6: Ejercicio práctico ?Presupuestos para la empresa LPQ Maderas de Colombia?
+55724852|Evidencia 7: Afiche ?Misión, visión y valores corporativos?
+55724452|Evidencia 7: Análisis de caso ?Identificación de modos y medios de transporte?
+55724862|Evidencia 8: Sesión virtual ?Incidencia de los costos logísticos en la DFI?
+55724392|Evidencia 1: Cuadro comparativo ?Medios y modos de transporte?
+55724262|Evidencia 1: Flujograma ?Procesos de la cadena logística y el marco estratégico institucional?
+55724162|Evidencia 2: ?Business meeting workshop?
+55724402|Evidencia 2: Diagrama de flujo ?Importancia del medioambiente en la empresa?
+55724067|Evidencia 3: Análisis de caso ?Generalidades de la oferta y la demanda?
+55724282|Evidencia 3: La planeación estratégica y la gestión logística
+55724172|Evidencia 3: Taller "Caso laboratorio farmacéutico"
+55724412|Evidencia 4: Artículo ?Canales y redes de distribución?
+55724077|Evidencia 4: Diagnóstico de necesidades de los clientes
+55724182|Evidencia 4: Informe "Actividad de Investigación"
+55724087|Evidencia 5: Ejercicio práctico ?Proyección de la oferta y la demanda?
+55724432|Evidencia 5: Reading workshop: international transport
+55724302|Evidencia 5: Workshop: Getting started as a translator
+55724312|Evidencia 6: Propuesta ?Plan maestro y estrategias de distribución logística?
+55724442|Evidencia 6: Proyecto ?Plan de Manejo Ambiental (PMA)"
+55724322|Evidencia 7: Agenda de trabajo ?Solución de conflictos para equipos de trabajo interdisciplinarios?
+55723862|Evidencia 4: Cuestionario ?Análisis DOFA?
+55723992|Evidencia 6: Presentación ?Logística para la distribución de un producto?
+55724042|Evidencia 1: Actores de la cadena de abastecimiento
+55723942|Evidencia 1: Ensayo ?La importancia de las redes de transporte?
+55723832|Evidencia 1: Mapa conceptual ?El sistema financiero colombiano?
+55723842|Evidencia 2: Presentación ?Comportamiento del mercado internacional?
+55723852|Evidencia 3: ?Introducing yourself to a prospective employer?
+55723972|Evidencia 4: Resumen ?Product distribution: the basics?
+55723982|Evidencia 5: Centro de distribución
+55723872|Evidencia 5: Propuesta comercial
+55723882|Evidencia 6: Matriz ?Mi DOFA, mi proyecto de vida?
+55723537|Estudio de caso: La oportunidad de formarme
+55723632|Portafolio: Mis evidencias
+55723587|Relato: Trabajo colaborativo
+55723547|Representación gráfica: Reconociendo mi ambiente formativo
+55723642|Resumen: Proyección de elección alternativa productiva
