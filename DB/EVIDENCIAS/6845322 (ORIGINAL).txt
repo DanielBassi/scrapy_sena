@@ -80,15 +80,15 @@
 55480277|Evidencia 6: Proyecto ?Plan de Manejo Ambiental (PMA)"
 55480152|Evidencia 7: Agenda de trabajo ?Solución de conflictos para equipos de trabajo interdisciplinarios?
 55480287|Evidencia 7: Análisis de caso ?Identificación de modos y medios de transporte?
+55479682|Evidencia 2: Presentación ?Comportamiento del mercado internacional?
 55479702|Evidencia 4: Cuestionario ?Análisis DOFA?
+55479822|Evidencia 5: Centro de distribución
 55479832|Evidencia 6: Presentación ?Logística para la distribución de un producto?
 55479882|Evidencia 1: Actores de la cadena de abastecimiento
 55479782|Evidencia 1: Ensayo ?La importancia de las redes de transporte?
 55479672|Evidencia 1: Mapa conceptual ?El sistema financiero colombiano?
-55479682|Evidencia 2: Presentación ?Comportamiento del mercado internacional?
 55479692|Evidencia 3: ?Introducing yourself to a prospective employer?
 55479812|Evidencia 4: Resumen ?Product distribution: the basics?
-55479822|Evidencia 5: Centro de distribución
 55479712|Evidencia 5: Propuesta comercial
 55479722|Evidencia 6: Matriz ?Mi DOFA, mi proyecto de vida?
 55479372|Estudio de caso: La oportunidad de formarme

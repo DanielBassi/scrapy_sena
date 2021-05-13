@@ -69,6 +69,7 @@
 55602627|Evidencia 6: Ejercicio práctico ?Presupuestos para la empresa LPQ Maderas de Colombia?
 55602222|Evidencia 6: Proyecto ?Plan de Manejo Ambiental (PMA)"
 55602232|Evidencia 7: Análisis de caso ?Identificación de modos y medios de transporte?
+55601772|Evidencia 5: Centro de distribución
 55601782|Evidencia 6: Presentación ?Logística para la distribución de un producto?
 55601832|Evidencia 1: Actores de la cadena de abastecimiento
 55602042|Evidencia 1: Flujograma ?Procesos de la cadena logística y el marco estratégico institucional?
@@ -79,16 +80,15 @@
 55601862|Evidencia 4: Diagnóstico de necesidades de los clientes
 55601962|Evidencia 4: Informe "Actividad de Investigación"
 55601762|Evidencia 4: Resumen ?Product distribution: the basics?
-55601772|Evidencia 5: Centro de distribución
 55601872|Evidencia 5: Ejercicio práctico ?Proyección de la oferta y la demanda?
 55602082|Evidencia 5: Workshop: Getting started as a translator
 55602092|Evidencia 6: Propuesta ?Plan maestro y estrategias de distribución logística?
 55602102|Evidencia 7: Agenda de trabajo ?Solución de conflictos para equipos de trabajo interdisciplinarios?
+55601632|Evidencia 2: Presentación ?Comportamiento del mercado internacional?
 55601652|Evidencia 4: Cuestionario ?Análisis DOFA?
 55601327|Estudio de caso: La oportunidad de formarme
 55601732|Evidencia 1: Ensayo ?La importancia de las redes de transporte?
 55601622|Evidencia 1: Mapa conceptual ?El sistema financiero colombiano?
-55601632|Evidencia 2: Presentación ?Comportamiento del mercado internacional?
 55601642|Evidencia 3: ?Introducing yourself to a prospective employer?
 55601662|Evidencia 5: Propuesta comercial
 55601672|Evidencia 6: Matriz ?Mi DOFA, mi proyecto de vida?

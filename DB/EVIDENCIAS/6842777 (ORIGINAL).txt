@@ -1,102 +1,98 @@
-54594647|AA1 Ev 10: Estudio de caso ?Riesgo de rechazo a exportaciones?
-54594602|Evidencia 6: Matriz ?Servicios bancarios?
-54594612|Evidencia 7: Propuesta ?Análisis de la evaluación de desempeño?
-54594622|Evidencia 8: Cuadro de comportamiento ?Evaluación del canal?
-54594632|Evidencia 9: Sesión virtual ?Supporting your improvement plan for your product or service?
-54594552|Evidencia 1: Dialogue ?Evaluating product and service?
-54594462|Evidencia 1: Taller ?Estados financieros?
-54594197|Evidencia 1: Taller ?Registro productor nacional?
-54594337|Evidencia 1: Writing and essay about logistics costs
-54594207|Evidencia 2: Compraventa internacional
-54594472|Evidencia 2: Ejercicio práctico ?Análisis a las problemáticas financieras?
-54594347|Evidencia 2: Herramientas básicas en los riesgos ocupacionales
-54594562|Evidencia 2: Seguimiento a la gestión del talento humano
-54594357|Evidencia 3: Ejercicio práctico ?Costeo de la DFI?
-54594217|Evidencia 3: Ensayo ?Free Trade Agreement (FTA): advantages and disadvantages?
-54594572|Evidencia 3: Informe ?Resultados financieros?
-54594582|Evidencia 4: Ejercicio práctico ?Declaración de cambio?
-54594087|Evidencia 4: Ejercicio práctico ?Desaduanamiento?
-54594227|Evidencia 4: Infografía ?Agente de aduanas?
-54594367|Evidencia 4: Sesión virtual ?Debate about and support your essay?
-54594237|Evidencia 5: Documentos de embarque
-54594097|Evidencia 5: Manual ?Inspección en puerto?
-54594377|Evidencia 5: Presentación ?Análisis de indicadores de la DFI?
-54594592|Evidencia 5: Video ?Presenting orally a business process improvement plan?
-54594247|Evidencia 6: Estudio de caso ?Aceite de palma BUN?
-54594107|Evidencia 6: Video ?Steps to export?
-54594392|Evidencia 6: Video ?Técnicas de cultura física?
-54594257|Evidencia 7: Compliance with foreign law
-54594117|Evidencia 7: Informe ?Prácticas de cultura física y hábitos del cuidado corporal?
-54594127|Evidencia 8: Export and/or import
-54594057|Evidencia 1: Bitácora ?Documentación de la operación de comercio?
-54593767|Evidencia 1: Informe "Análisis de elasticidad de la oferta y la demanda"
-54593637|Evidencia 1: Portafolio de servicios ?Productos Colfrutik?
-54593897|Evidencia 1: Taller ?Importancia y trascendencia de los valores éticos empresariales?
-54593907|Evidencia 2: Informe ?Análisis de cargos Colfrutik?
-54593647|Evidencia 2: Plan de manejo ambiental ?Exportación bocadillo veleño?
-54594067|Evidencia 2: Taller ?Clasificación arancelaria?
-54593917|Evidencia 3: Cuadro comparativo ?Riesgos profesionales?
-54594077|Evidencia 3: Cuadro sinóptico ?Desarrollo de habilidades psicomotrices y de pensamiento?
-54593792|Evidencia 3: Matriz DOFA ?Presupuesto?
-54593657|Evidencia 3: Taller ?Habilidades para una buena comunicación?
-54593927|Evidencia 4: Marco conceptual para el trabajo en equipo
-54593667|Evidencia 4: Página web corporativa
-54593802|Evidencia 4: Planeación de presupuesto
-54593677|Evidencia 5: Ejercicio práctico ?Advertising and web page?
-54593937|Evidencia 5: Sesión virtual ?Industrias RG?
-54593947|Evidencia 6: Afiche ?Misión, visión y valores corporativos?
-54593687|Evidencia 6: Sesión virtual ?Planeación y presentación de mi producto?
-54593957|Evidencia 7: Cartilla ?Hábitos saludables?
-54593697|Evidencia 7: Fichas ambientales
-54593967|Evidencia 8: Encuesta ?Valoración de la capacidad de trabajo en equipo?
-54593707|Evidencia 8: Propuesta comercial
-54593182|Evidencia 10: Sesión virtual ?Plan de acción de mercadeo?
-54593377|Evidencia 1: Autoevaluación ?Mejoramiento personal?
-54593497|Evidencia 1: Ejercicio práctico ?Requisitos comerciales?
-54593102|Evidencia 2: Market Projection
-54593262|Evidencia 2: Workshop ?Distribution channels?
-54593112|Evidencia 3: Ejercicio práctico ?La mejor estrategia corporativa?
-54593272|Evidencia 3: Estudio de caso ?Estándares para seleccionar el canal?
-54593397|Evidencia 3: Taller ?Cubicaje y liquidación de fletes?
-54593517|Evidencia 3: Taller ?El mejor INCOTERM?
-54593122|Evidencia 4: Control de gestión
-54593527|Evidencia 4: Historieta ?Documento correcto, momento oportuno?
-54593407|Evidencia 4: Plan de mejoramiento ?Derechos y principios éticos en ejercicio de mi profesión?
-54593282|Evidencia 4: Sesión virtual ?Prepositions?
-54593292|Evidencia 5: Informe ?Selección del tipo de canal?
-54593417|Evidencia 5: Investigación ?Ruteador?
-54593537|Evidencia 5: Podcast ?Transporte y seguros?
-54593132|Evidencia 5: Tabla de datos ?Identificación del segmento?
-54593427|Evidencia 6: Informe ?Definición de rutas?
-54593142|Evidencia 6: Segmentation ?Describing potential clients?
-54593547|Evidencia 6: Simulador de costos DFI
-54593437|Evidencia 7: Dialogue ?Coordinating trucking?
-54593152|Evidencia 7: Informe ?Análisis del mercado?
-54593162|Evidencia 8: Proyecciones del mercado
-54593172|Evidencia 9: Plan estratégico de mercadeo
-54592852|AA1 Ev 14: Ejercicio práctico ?Comportamiento del mercado de capitales?
-54592812|AA1 Ev 10: Informe "Método de selección de ideas"
-54592822&idgrupo=590092|AA1 Ev 11: Diagnóstico del mercado y análisis DOFA - Evidencia en Equipo
-54592832|AA1 Ev 12: Sesión virtual ?My CV?
-54592767|AA1 Ev 6: Ejercicio práctico ?Piensa positivo?
-54592777|AA1 Ev 7: Mapa mental ?Variación de la tasa de cambio?
-54592802|AA1 Ev 9: Estudio de caso ?Riesgos en la negociación internacional?
-54592732|AA1 Ev. 3: Taller "Análisis DOFA"
-54592952|AA2 Ev 3: Ejercicio práctico ?Evaluar mercados potenciales?
-54592962&idgrupo=590092|AA2 Ev 4: Propuesta "Planeación para investigación de mercados" - Evidencia en Equipo
-54592992&idgrupo=590092|AA2 Ev 7: Informe ?Variables de la investigación? - Evidencia en Equipo
-54593012|AA2 Ev 9: Sesión virtual ?Sustentación de resultados?
-54592972&idgrupo=590092|AA2 Ev 5: Plan de muestreo "Recolección de información" - Evidencia en Equipo
-54592982|AA2 Ev 6: Estudio de caso ?Solución de conflictos grupales?
-54592842|AA1 Ev 13: La DOFA en mi proyecto de vida
-54592712|AA1 Ev 1: Summary ?Approach to diagnostics of marketing complex of industrial enterprise?
-54592942|AA1 Ev 2: Workshop ?Products and services?
-54592757|AA1 Ev 5: Estudio de caso ?La importancia de aprender un idioma?
-54592932|AA2 Ev 1: Barreras de ingreso a los mercados
-54593002|AA2 Ev 8: Video "My job"
-54593092|Evidencia 1: Taller ?Global Country?
-54592387|Representación gráfica: Reconociendo mi ambiente formativo
-54592482|Resumen: Proyección de elección alternativa productiva
-54592377|Estudio de caso: La oportunidad de formarme
-54592472|Portafolio: Mis evidencias
-54592427&idgrupo=590092|Relato: Trabajo colaborativo - Evidencia en Equipo
+54454297|Evidencia 3: Fase I, Análisis DOFA del entorno
+54454307|Evidencia 4: Fase II, Planeación estratégica
+54454317|Evidencia 5: Fase III, Integración de áreas involucradas en el servicio al cliente
+54454327|Evidencia 6: Fase IV, Plan maestro
+54454337|Evidencia 7: Taller "Talking about Logistics, workshop"
+54454077|Evidencia 1: Artículo ?Trazabilidad organizacional?
+54453817|Evidencia 1: Asesoría ?Caso exportación?
+54454087|Evidencia 2: Cuadros comparativos ?Trazabilidad?
+54454177|Evidencia 2: Gráfica ?Sistemas de información?
+54453977|Evidencia 2: Matriz de riesgos
+54453827|Evidencia 2: Presentación "Ruta importadora"
+54454097|Evidencia 3: Casos empresariales
+54454187|Evidencia 3: Diseño ?Cuadro de Mando Integral o Balance Score Card?
+54453837|Evidencia 3: Ejercicio periodístico ?Normas nacionales e internacionales que rigen la clasificación arancelaria de mercancías?
+54453987|Evidencia 3: Ficha antropológica y test físico
+54454107|Evidencia 4: Ejercicio práctico
+54454197|Evidencia 4: Informe ?Diagnóstico ejecutivo?
+54453847|Evidencia 4: Los derechos humanos en el marco personal y en el ejercicio de mi profesión
+54453997|Evidencia 4: Taller ?Safety signs?
+54454207|Evidencia 5: Encuesta ?Valoración y propuestas de mejora para el trabajo en equipo de una organización?
+54454007|Evidencia 5: Manual de seguridad y seguimiento
+54453857|Evidencia 5: Summary ?Export-import theory?
+54453867|Evidencia 6: Ejercicio práctico ?Identificación de la posición arancelaria de su producto y requisitos asociados?
+54454017|Evidencia 6: Reporte de un accidente
+54453877|Evidencia 7: Ficha ?valores y principios éticos profesionales?
+54454027|Evidencia 7: Video "Hábitos saludables y cultura física"
+54453887|Evidencia 8: Presentation ?Steps to export?
+54453577|Evidencia 1: Artículo ?Tecnologías de la Información y la Comunicación?
+54453462|Evidencia 1: Taller "Generalidades de la gestión del talento humano y sus subprocesos"
+54453587|Evidencia 2: Cuadro comparativo ?Tecnologías de la Información y la Comunicación?
+54453697|Evidencia 2: Infografía ?Índices de gestión de servicio?
+54453487|Evidencia 3: Informe ?Definiendo y desarrollando habilidades para una comunicación asertiva y eficaz?
+54453597|Evidencia 3: Taller ?Plan de integración y TIC?
+54453707|Evidencia 3: Workshop ?Customer satisfaction tools?
+54453607|Evidencia 4: Reading Workshop: Inferring from context
+54453717|Evidencia 4: Video ?Servicio al cliente?
+54453617|Evidencia 5: Estudio de casos ?Situaciones empresariales?
+54453507|Evidencia 5: Propuesta "Estructuración y definición de políticas de talento humano"
+54453727|Evidencia 5: Workshop ?Using verbs to build customer satisfaction tools?
+54453627|Evidencia 6: Ejercicio práctico ?Empresa San Lucas"
+54453517|Evidencia 6: Programa de capacitación en comunicación asertiva
+54453737|Evidencia 6: Propuesta ?Comercio electrónico?
+54453222|Evidencia 1: Artículo ?Presupuestos?
+54453352|Evidencia 1: Video ?Puntos críticos en actores de la cadena de abastecimiento?
+54453362|Evidencia 2: Describing and comparing products
+54453132|Evidencia 2: Workshop: Understanding the distribution center layout
+54453242|Evidencia 3: Cuadro comparativo ?Indicadores de gestión logísticos?
+54453372|Evidencia 3: Propuesta ?Estructuración del sistema de trazabilidad?
+54453142|Evidencia 3: Video ?Pausas activas en entornos laborales?
+54453252|Evidencia 4: Presentación ?Importancia y transcendencia de los valores éticos empresariales?
+54453152|Evidencia 4: Propuesta ?Diseño de un Centro de Distribución (CEDI)?
+54453382|Evidencia 4: Sesión virtual ?Indicadores de gestión?
+54453162|Evidencia 5: Modelo de un Centro de Distribución
+54453262|Evidencia 5: Taller ?Indicadores de gestión logística?
+54453272|Evidencia 6: Ejercicio práctico ?Presupuestos para la empresa LPQ Maderas de Colombia?
+54453282|Evidencia 7: Afiche ?Misión, visión y valores corporativos?
+54453292|Evidencia 8: Sesión virtual ?Incidencia de los costos logísticos en la DFI?
+54452812|Evidencia 1: Cuadro comparativo ?Medios y modos de transporte?
+54452682|Evidencia 1: Flujograma ?Procesos de la cadena logística y el marco estratégico institucional?
+54452927|Evidencia 1: Presentación ?Caracterización de la empresa?
+54452822|Evidencia 2: Diagrama de flujo ?Importancia del medioambiente en la empresa?
+54452942|Evidencia 2: Perfil de clientes y proveedores
+54453032|Evidencia 2: Taller "Lead Time aplicado"
+54453042|Evidencia 3: Infografía "Estrategia global de distribución"
+54452952|Evidencia 3: Informe ?Identificación de las tecnologías de la información?
+54452702|Evidencia 3: La planeación estratégica y la gestión logística
+54452832|Evidencia 4: Artículo ?Canales y redes de distribución?
+54453052|Evidencia 4: Diseño del plan de ruta y red geográfica de transporte
+54452962|Evidencia 4: Propuesta ?Caso pio pio y más pio?
+54452972|Evidencia 5: Manual ?Procesos y procedimientos logísticos?
+54452852|Evidencia 5: Reading workshop: international transport
+54452722|Evidencia 5: Workshop: Getting started as a translator
+54452732|Evidencia 6: Propuesta ?Plan maestro y estrategias de distribución logística?
+54452862|Evidencia 6: Proyecto ?Plan de Manejo Ambiental (PMA)"
+54452742|Evidencia 7: Agenda de trabajo ?Solución de conflictos para equipos de trabajo interdisciplinarios?
+54452872|Evidencia 7: Análisis de caso ?Identificación de modos y medios de transporte?
+54452407|Evidencia 5: Centro de distribución
+54452417|Evidencia 6: Presentación ?Logística para la distribución de un producto?
+54452467|Evidencia 1: Actores de la cadena de abastecimiento
+54452582|Evidencia 2: ?Business meeting workshop?
+54452487|Evidencia 3: Análisis de caso ?Generalidades de la oferta y la demanda?
+54452592|Evidencia 3: Taller "Caso laboratorio farmacéutico"
+54452497|Evidencia 4: Diagnóstico de necesidades de los clientes
+54452602|Evidencia 4: Informe "Actividad de Investigación"
+54452397|Evidencia 4: Resumen ?Product distribution: the basics?
+54452507|Evidencia 5: Ejercicio práctico ?Proyección de la oferta y la demanda?
+54452267|Evidencia 2: Presentación ?Comportamiento del mercado internacional?
+54452287|Evidencia 4: Cuestionario ?Análisis DOFA?
+54452367|Evidencia 1: Ensayo ?La importancia de las redes de transporte?
+54452257|Evidencia 1: Mapa conceptual ?El sistema financiero colombiano?
+54452277|Evidencia 3: ?Introducing yourself to a prospective employer?
+54452297|Evidencia 5: Propuesta comercial
+54452307|Evidencia 6: Matriz ?Mi DOFA, mi proyecto de vida?
+54451967|Representación gráfica: Reconociendo mi ambiente formativo
+54452062|Resumen: Proyección de elección alternativa productiva
+54451957|Estudio de caso: La oportunidad de formarme
+54452052|Portafolio: Mis evidencias
+54452007|Relato: Trabajo colaborativo
