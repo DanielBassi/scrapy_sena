@@ -1,6 +1,9 @@
-ANALISIS Y DESARROLLO DE SISTEMAS DE INFORMACION (2282073)|AP01-AA1-EV01. Identificación de la necesidad de sistemas de información.|1
-ANALISIS Y DESARROLLO DE SISTEMAS DE INFORMACION (2282135)|AP01-AA1-EV01. Identificación de la necesidad de sistemas de información.|1
-ANALISIS Y DESARROLLO DE SISTEMAS DE INFORMACION (2282135)|AP01-AA1-EV02. Estructuración del proyecto del sistema en desarrollo.|1
-GESTIÓN LOGÍSTICA (2282217)|Evidencia 3: Análisis de caso ?Generalidades de la oferta y la demanda?|1
-GESTIÓN LOGÍSTICA (2282275)|Evidencia 3: Análisis de caso ?Generalidades de la oferta y la demanda?|2
-GESTIÓN LOGÍSTICA (2282333)|Evidencia 3: Análisis de caso ?Generalidades de la oferta y la demanda?|1
+DISTRIBUCIÓN FÍSICA INTERNACIONAL (2281630)|Evidencia 2: Taller "Identificar la importancia de la estadística y su aplicabilidad en la vida laboral"|1
+DISTRIBUCIÓN FÍSICA INTERNACIONAL (2281630)|Evidencia 3: Cuadro comparativo "Determinar el software para consolidar la información en la cadena de abastecimiento"|3
+DISTRIBUCIÓN FÍSICA INTERNACIONAL (2281630)|Evidencia 4: Ejercicio práctico "Implementar el manejo de software"|1
+DISTRIBUCIÓN FÍSICA INTERNACIONAL (2281630)|Evidencia 6: Informe "Identificar los sistemas de información en una empresa"|1
+GESTIÓN LOGÍSTICA (2281702)|Evidencia 5: Centro de distribución|1
+GESTIÓN LOGÍSTICA (2282217)|Evidencia 5: Centro de distribución|2
+GESTIÓN LOGÍSTICA (2282275)|Evidencia 5: Ejercicio práctico ?Proyección de la oferta y la demanda?|3
+GESTIÓN LOGÍSTICA (2282333)|Evidencia 5: Propuesta comercial|1
+GESTIÓN LOGÍSTICA (2282333)|Evidencia 5: Ejercicio práctico ?Proyección de la oferta y la demanda?|3
