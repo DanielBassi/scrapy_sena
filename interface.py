@@ -210,18 +210,19 @@ class Interface:
                             
                             for table in list_tables:
                                 table_id = table.get_attribute('id').split('table-respuesta-', 1)[1]
-                                intentos = None
-                                while not intentos:
-                                    try:
-                                        intentos = table.find_element_by_xpath("//table[@id='table-respuesta-"+table_id+"']/tbody/tr/td[@width='30%']/p").text.split(":")[-1].strip()
-                                    except NoSuchElementException:
-                                        intentos = table.find_element_by_xpath("//table[@id='table-respuesta-"+table_id+"']/tbody/tr/td[@width='30%']/span/p").text.split(":")[-1].strip()
-                                
-                                nota = table.find_element_by_xpath("//table[@id='table-respuesta-"+table_id+"']/tbody/tr/td[@width='6%']/input[@type='text']")
-                                if str(nota.get_attribute('value')) == 'Sn' and int(intentos) > 0:
-                                    count_qualifity = count_qualifity + 1 
-                                    revisado_total = revisado_total + 1 
-                                    #estudiante = table.find_element_by_xpath("//table[@id='table-respuesta-"+table_id+"']/tbody/tr/td[@width='59%']").text
+                                if table_id:
+                                    intentos = None
+                                    while not intentos:
+                                        try:
+                                            intentos = table.find_element_by_xpath("//table[@id='table-respuesta-"+table_id+"']/tbody/tr/td[@width='30%']/p").text.split(":")[-1].strip()
+                                        except NoSuchElementException:
+                                            intentos = table.find_element_by_xpath("//table[@id='table-respuesta-"+table_id+"']/tbody/tr/td[@width='30%']/span/p").text.split(":")[-1].strip()
+                                    
+                                    nota = table.find_element_by_xpath("//table[@id='table-respuesta-"+table_id+"']/tbody/tr/td[@width='6%']/input[@type='text']")
+                                    if str(nota.get_attribute('value')) == 'Sn' and int(intentos) > 0:
+                                        count_qualifity = count_qualifity + 1 
+                                        revisado_total = revisado_total + 1 
+                                        #estudiante = table.find_element_by_xpath("//table[@id='table-respuesta-"+table_id+"']/tbody/tr/td[@width='59%']").text
                                 
                             if count_qualifity > 0:
                                 reporte.write( array_ficha[1].replace('\n', '')+'|'+e[1].replace('\n', '')+'|'+str(count_qualifity)+'\n')
