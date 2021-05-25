@@ -1,6 +1,14 @@
-DISTRIBUCIÓN FÍSICA INTERNACIONAL (2281630)|Evidencia 3: Cuadro comparativo "Determinar el software para consolidar la información en la cadena de abastecimiento"|1
-GESTIÓN LOGÍSTICA (2281702)|Evidencia 5: Ejercicio práctico ?Proyección de la oferta y la demanda?|2
-GESTIÓN LOGÍSTICA (2282217)|Evidencia 4: Diagnóstico de necesidades de los clientes|3
-GESTIÓN LOGÍSTICA (2282217)|Evidencia 5: Ejercicio práctico ?Proyección de la oferta y la demanda?|3
-GESTIÓN LOGÍSTICA (2282275)|Evidencia 5: Ejercicio práctico ?Proyección de la oferta y la demanda?|1
-GESTIÓN LOGÍSTICA (2282333)|Evidencia 4: Diagnóstico de necesidades de los clientes|2
+ANALISIS Y DESARROLLO DE SISTEMAS DE INFORMACION (2281577)|AP01-AA1-EV01. Identificación de la necesidad de sistemas de información.|1
+ANALISIS Y DESARROLLO DE SISTEMAS DE INFORMACION (2281577)|AP01-AA1-EV02. Estructuración del proyecto del sistema en desarrollo.|3
+ANALISIS Y DESARROLLO DE SISTEMAS DE INFORMACION (2281577)|AP01-AA2-EV05. Especificación de los requerimientos funcionales y no funcionales del sistema.|1
+ANALISIS Y DESARROLLO DE SISTEMAS DE INFORMACION (2282135)|AP01-AA2-EV05. Especificación de los requerimientos funcionales y no funcionales del sistema.|1
+DISTRIBUCIÓN FÍSICA INTERNACIONAL (2281630)|Evidencia 3: Cuadro comparativo "Determinar el software para consolidar la información en la cadena de abastecimiento"|2
+DISTRIBUCIÓN FÍSICA INTERNACIONAL (2281630)|Evidencia 4: Ejercicio práctico "Implementar el manejo de software"|4
+GESTIÓN LOGÍSTICA (2281702)|Evidencia 4: Diagnóstico de necesidades de los clientes|6
+GESTIÓN LOGÍSTICA (2281702)|Evidencia 5: Ejercicio práctico ?Proyección de la oferta y la demanda?|10
+GESTIÓN LOGÍSTICA (2282217)|Evidencia 5: Ejercicio práctico ?Proyección de la oferta y la demanda?|9
+GESTIÓN LOGÍSTICA (2282275)|Evidencia 5: Propuesta comercial|2
+GESTIÓN LOGÍSTICA (2282275)|Evidencia 4: Diagnóstico de necesidades de los clientes|9
+GESTIÓN LOGÍSTICA (2282275)|Evidencia 5: Ejercicio práctico ?Proyección de la oferta y la demanda?|9
+GESTIÓN LOGÍSTICA (2282333)|Evidencia 4: Diagnóstico de necesidades de los clientes|6
+GESTIÓN LOGÍSTICA (2282333)|Evidencia 5: Ejercicio práctico ?Proyección de la oferta y la demanda?|10
