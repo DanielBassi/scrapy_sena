@@ -192,6 +192,8 @@ class Interface:
                             salida = None
                             while not salida:
                                 try:
+                                    self.browser.refresh()
+                                    time.sleep(4)
                                     self.browser.find_element_by_xpath("//a[contains(@onclick,'"+e[0]+"')]").click()
                                     salida = True
                                 except:

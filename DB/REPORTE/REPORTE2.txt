@@ -1,5 +1,0 @@
-ANALISIS Y DESARROLLO DE SISTEMAS DE INFORMACION (2282073)|AP01-AA2-EV05. Especificación de los requerimientos funcionales y no funcionales del sistema.|1
-GESTIÓN LOGÍSTICA (2282275)|Evidencia 4: Diagnóstico de necesidades de los clientes|1
-GESTIÓN LOGÍSTICA (2282333)|Evidencia 5: Ejercicio práctico ?Proyección de la oferta y la demanda?|1
-NEGOCIACIÓN INTERNACIONAL (2281747)|AA2 Ev 4: Propuesta "Planeación para investigación de mercados" - Evidencia en Equipo|1
-NEGOCIACIÓN INTERNACIONAL (2281747)|AA2 Ev 5: Plan de muestreo "Recolección de información" - Evidencia en Equipo|1
