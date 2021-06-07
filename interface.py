@@ -170,10 +170,11 @@ class Interface:
                 reporte = open(self.original, "w")
                 for ficha in self.fichas:
                     array_ficha = ficha.split('__')
+                    print('Estoy Observando la ficha'+ array_ficha[1])
                     try:
                         #Obtener listado de EVIDENCIAS pertenecientes ala FICHA
                         evidencia_actual = self.getDataBase( 'DB/EVIDENCIAS/'+array_ficha[0]+'.txt')
-                        time.sleep(4)
+                        time.sleep(6)
                         self.browser.get( 'https://sena.territorio.la/perfil.php?id='+ array_ficha[0] )
                         
                         #Dar clic en Evidencias
@@ -187,16 +188,17 @@ class Interface:
                         
                         for evidencia in evidencia_actual:
                             e = evidencia.split('__')
-                        
+                            print('Estoy Observando la evidencia '+e[1])
                             #Dar clic en la Evidencia que se desea comenzara a calificar
                             salida = None
                             while not salida:
                                 try:
-                                    self.browser.refresh()
-                                    time.sleep(4)
+                                    #self.browser.refresh()
+                                    time.sleep(6)
                                     self.browser.find_element_by_xpath("//a[contains(@onclick,'"+e[0]+"')]").click()
                                     salida = True
                                 except:
+                                    print('No encuentro la evidencia '+e[1])
                                     salida = None
                             
                             #Get all elements of father div #formCalificar
@@ -212,6 +214,7 @@ class Interface:
                             
                             for table in list_tables:
                                 table_id = table.get_attribute('id').split('table-respuesta-', 1)[1]
+                                print('Estoy Observando la tabla '+table_id)
                                 if table_id:
                                     intentos = None
                                     while not intentos:
@@ -244,6 +247,7 @@ class Interface:
                     self.enviar_correo()
         except:
             self.enviar_correo("!Ha ocurrido un eror! - El BOT se ha detenido.")
+    
     def automatizacion(self):
         
         #Autentificar al usuario
@@ -349,8 +353,9 @@ class Interface:
         return comentario[ random.randint( 0, len(comentario) ) ]
         
     def dirigir_a_evidencias(self, url):
-        time.sleep(1)
+        #time.sleep(6)
         self.browser.get( url )
+        time.sleep(6)
         #Dar clic en Evidencias
         salida = None
         while not salida:
@@ -375,7 +380,7 @@ class Interface:
         message['Subject'] = "Reporte calificaciones pendientes - Sena - " + datetime.datetime.now((pytz.timezone('America/Bogota'))).strftime("%d/%m/%Y, %H:%M:%S") if descripcion == False else descripcion
         message['From'] = self.email_username
         message['To'] = ','.join( self.email_to )
-        print(self.original)
+        
         part = MIMEBase('application', "octet-stream")
         part.set_payload(open(self.original, "rb").read())
         encode_base64(part)
