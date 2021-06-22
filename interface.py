@@ -79,7 +79,7 @@ class Interface:
         entryUser.focus()
 
         #Input Password
-        ttk.Label(self.mainframe, text="Contrase�a").grid(column=1, row=4, sticky=(W, E))
+        ttk.Label(self.mainframe, text="Contraseña").grid(column=1, row=4, sticky=(W, E))
         self.passw = StringVar()
         entryPass = ttk.Entry(self.mainframe, width=20, textvariable=self.passw)
         entryPass.grid(column=1, row=5, sticky=(W, E))
