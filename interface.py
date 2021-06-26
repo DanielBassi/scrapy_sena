@@ -174,7 +174,7 @@ class Interface:
                     try:
                         #Obtener listado de EVIDENCIAS pertenecientes ala FICHA
                         evidencia_actual = self.getDataBase( 'DB/EVIDENCIAS/'+array_ficha[0]+'.txt')
-                        time.sleep(6)
+                        time.sleep( 10 )
                         self.browser.get( 'https://sena.territorio.la/perfil.php?id='+ array_ficha[0] )
                         
                         #Dar clic en Evidencias
@@ -194,7 +194,7 @@ class Interface:
                             while not salida:
                                 try:
                                     #self.browser.refresh()
-                                    time.sleep(6)
+                                    time.sleep( 10 )
                                     self.browser.find_element_by_xpath("//a[contains(@onclick,'"+e[0]+"')]").click()
                                     salida = True
                                 except:
@@ -353,9 +353,9 @@ class Interface:
         return comentario[ random.randint( 0, len(comentario) ) ]
         
     def dirigir_a_evidencias(self, url):
-        #time.sleep(6)
+        #time.sleep( 10 )
         self.browser.get( url )
-        time.sleep(6)
+        time.sleep( 10 )
         #Dar clic en Evidencias
         salida = None
         while not salida:
