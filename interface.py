@@ -200,6 +200,7 @@ class Interface:
                                 except:
                                     print('No encuentro la evidencia '+e[1])
                                     salida = None
+                                    self.browser.refresh()
                             
                             #Get all elements of father div #formCalificar
                             list_tables = None
