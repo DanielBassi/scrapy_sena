@@ -1,0 +1,48 @@
+147825462|Audio GA4-240202501-AA2-EV01
+147826012|Diagrama de sistemas de la relación del individuo con el entorno GA3-240201526-AA3-EV01
+147826042|Documento colaborativo de la solución del caso GA3-240201526-AA6-EV01
+147826162|Documento escrito GA3-240202501-AA2-EV01
+147826022|Ejemplo de una marca sostenible que cumpla con Triple Bottom Line GA3-240201526-AA4-EV01
+147826032|Mapa mental de los hitos del conflicto armado en Colombia en los últimos 50 años GA3-240201526-AA5-EV01
+147826097|Mapa mental respecto a los planes y acciones establecidos en medio ambiente y SST GA3-220601501-AA3-EV01
+147826152|Presentación GA3-240202501-AA1-EV02
+147826057|Presentación Interactiva de Ingresos, costos y gastos GA3-210303022-AA1-EV01
+147826087|Presentación sobre las estrategias para la prevención y control de los impactos ambientales, accidentes y enfermedades laborales (ATEL) GA3-220601501-AA2-EV01
+147826062|Programador anual obligaciones laborales GA3-210303022-AA1-EV02
+147825992|Taller de reflexión escrita del caso Malala GA3-240201526-AA1-EV01
+147826067|Taller sobre hechos económicos en una empresa GA3-210303022-AA1-EV03
+147826107|Video expositivo sobre oportunidades de mejora en medio ambiente y SST GA3-220601501-AA4-EV01
+147826002|Video presentación de proyecto de vida GA3-240201526-AA2-EV01
+147826127|Video servicio al cliente GA3-210601020-AA1-EV02
+147826122|«Infografía caracterización del cliente» GA3-210601020-AA1-EV01
+147825322|Algoritmo para el cálculo de áreas y volúmenes GA2-240201528-AA4-EV01
+147825262|Crónica GA2-240202501-AA2-EV01
+147825367|Cuadro comparativo instrumentos financieros GA2-210303022-AA1-EV02
+147825402|Ficha antropométrica de valoración de la condición física GA4-230101507-AA3-EV01
+147825412|Folleto de lesiones más comunes en el trabajo o vida cotidiana y la importancia de las pausas activas GA4-230101507-AA4-EV01
+147825392|Infografía de estilos de vida saludable GA4-230101507-AA2-EV01
+147825347|Infografía sobre los mecanismos constitucionales de protección GA2-210201501-AA2-EV01
+147825427|Infografía «Proceso de ajustes, cierre contable» GA4-210303022-AA1-EV01
+147825302|Informe del planteamiento de ecuación GA2-240201528-AA2-EV01
+147825282|Informe. Creación de contenidos comunicativos GA2-240201524-AA2-EV01
+147825432|Taller ciclo contable GA4-210303022-AA1-EV02
+147825372|Taller sobre hechos económicos en una empresa GA2-210303022-AA1-EV03
+147825332|Texto argumentativo sobre el trabajo como derecho humano fundamental GA2-210201501-AA1-EV01
+147825252|Video entrevista virtual GA2-240202501-AA1-EV02
+147825312|Video presentación del caso GA2-240201528-AA3-EV01
+147825272|Video. La comunicación como expresión humana GA2-240201524-AA1-EV01
+147825142|DOFA Personal. Identificar habilidades personales como emprendedor GA1-240201529-AA1-EV01
+147825192|Folleto GA1-240202501-AA2-EV01
+147825132|Informe mejora de productos y procesos con la incorporación de TIC GA1-220501046-AA3-EV01
+147825112|Mapa conceptual sobre software y servicios de internet A1-220501046-AA1-EV01
+147825207|Mapa mental sobre la constitución y legalización de la empresa GA1-210303022-AA1-EV01
+147825212|Mapa mental. Documentos contables, comerciales y títulos valores GA1-210303022-AA1-EV02
+147825152|Modelo CANVAS del emprendimiento GA1-240201529-AA2-EV01
+147825162|Modelo financiero. Proyectar viabilidad financiera del emprendimiento GA1-240201529-AA3-EV01
+147825217|Taller sobre hechos económicos en la constitución de la empresa GA1-210303022-AA1-EV03
+147825122|Taller- Utilización de las herramientas de Ofimática GA1-220501046-AA2-EV01
+147825182|Video presentación GA1-240202501-AA1-EV02
+147824817|Cuadro sinóptico. AA4-EV01
+147824782|Infografía. AA1-EV01
+147824802|Crucigrama. AA3-EV01
+147824822|Taller. AA4-EV02

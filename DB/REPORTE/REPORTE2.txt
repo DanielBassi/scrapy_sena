@@ -1,2 +1,9 @@
-GESTIÓN LOGÍSTICA (2282333)|Evidencia 1: Flujograma ?Procesos de la cadena logística y el marco estratégico institucional?|1
-NEGOCIACIÓN INTERNACIONAL (2281747)|Evidencia 8: Proyecciones del mercado|2
+GESTIÓN LOGÍSTICA (2281702)|Evidencia 1: Flujograma ?Procesos de la cadena logística y el marco estratégico institucional?|2
+GESTIÓN LOGÍSTICA (2281702)|Evidencia 1: Cuadro comparativo ?Medios y modos de transporte?|1
+GESTIÓN LOGÍSTICA (2282217)|Evidencia 1: Cuadro comparativo ?Medios y modos de transporte?|1
+GESTIÓN LOGÍSTICA (2282275)|Evidencia 1: Flujograma ?Procesos de la cadena logística y el marco estratégico institucional?|1
+GESTIÓN LOGÍSTICA (2282275)|Evidencia 1: Cuadro comparativo ?Medios y modos de transporte?|2
+GESTIÓN LOGÍSTICA (2282333)|Evidencia 5: Centro de distribución|1
+GESTIÓN LOGÍSTICA (2282333)|Evidencia 1: Flujograma ?Procesos de la cadena logística y el marco estratégico institucional?|2
+GESTIÓN LOGÍSTICA (2282333)|Evidencia 1: Cuadro comparativo ?Medios y modos de transporte?|2
+NEGOCIACIÓN INTERNACIONAL (2281747)|Evidencia 8: Proyecciones del mercado|1
