@@ -4,3 +4,4 @@
 55326062|AP01-AA1-EV02. Estructuración del proyecto del sistema en desarrollo.
 55326092|AP01-AA2-EV05. Especificación de los requerimientos funcionales y no funcionales del sistema.
 55326217|AP02-AA3-EV02. Especificación de requerimientos con casos de uso.
+55326452|AP04-AA5-EV02. Elaboración del prototipo del sistema de información a desarrollar.
