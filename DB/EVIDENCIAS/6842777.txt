@@ -9,3 +9,6 @@
 54452592|Evidencia 3: Taller "Caso laboratorio farmacéutico"
 54452682|Evidencia 1: Flujograma ?Procesos de la cadena logística y el marco estratégico institucional?
 54452812|Evidencia 1: Cuadro comparativo ?Medios y modos de transporte?
+54452927|Evidencia 1: Presentación ?Caracterización de la empresa?
+54452952|Evidencia 3: Informe ?Identificación de las tecnologías de la información?
+54452972|Evidencia 5: Manual ?Procesos y procedimientos logísticos?
