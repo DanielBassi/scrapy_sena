@@ -1,2 +1,5 @@
 118440123|Portafolio: Mis evidencias
 118440133|Resumen: Proyección de elección alternativa productiva
+118440793|Evidencia 4: Propuesta "Planeación para investigación de mercados".
+118440803|Evidencia 5: Plan de muestreo "Recolección de información".
+118440823|Evidencia 7: Informe "Variables de la investigación".
