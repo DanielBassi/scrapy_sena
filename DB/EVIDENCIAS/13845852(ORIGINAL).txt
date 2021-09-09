@@ -31,17 +31,17 @@
 147825252|Video entrevista virtual GA2-240202501-AA1-EV02
 147825312|Video presentación del caso GA2-240201528-AA3-EV01
 147825272|Video. La comunicación como expresión humana GA2-240201524-AA1-EV01
-147825142|DOFA Personal. Identificar habilidades personales como emprendedor GA1-240201529-AA1-EV01
-147825192|Folleto GA1-240202501-AA2-EV01
 147825132|Informe mejora de productos y procesos con la incorporación de TIC GA1-220501046-AA3-EV01
-147825112|Mapa conceptual sobre software y servicios de internet A1-220501046-AA1-EV01
 147825207|Mapa mental sobre la constitución y legalización de la empresa GA1-210303022-AA1-EV01
 147825212|Mapa mental. Documentos contables, comerciales y títulos valores GA1-210303022-AA1-EV02
-147825152|Modelo CANVAS del emprendimiento GA1-240201529-AA2-EV01
-147825162|Modelo financiero. Proyectar viabilidad financiera del emprendimiento GA1-240201529-AA3-EV01
 147825217|Taller sobre hechos económicos en la constitución de la empresa GA1-210303022-AA1-EV03
 147825122|Taller- Utilización de las herramientas de Ofimática GA1-220501046-AA2-EV01
 147825182|Video presentación GA1-240202501-AA1-EV02
+147825142|DOFA Personal. Identificar habilidades personales como emprendedor GA1-240201529-AA1-EV01
+147825192|Folleto GA1-240202501-AA2-EV01
+147825112|Mapa conceptual sobre software y servicios de internet A1-220501046-AA1-EV01
+147825152|Modelo CANVAS del emprendimiento GA1-240201529-AA2-EV01
+147825162|Modelo financiero. Proyectar viabilidad financiera del emprendimiento GA1-240201529-AA3-EV01
 147824817|Cuadro sinóptico. AA4-EV01
 147824782|Infografía. AA1-EV01
 147824802|Crucigrama. AA3-EV01
