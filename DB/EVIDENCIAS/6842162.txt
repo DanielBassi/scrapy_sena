@@ -5,3 +5,4 @@
 54208972|AP01-AA2-EV05. Especificación de los requerimientos funcionales y no funcionales del sistema.
 54209092|AP02-AA3-EV02. Especificación de requerimientos con casos de uso.
 54209322|AP04-AA5-EV02. Elaboración del prototipo del sistema de información a desarrollar.
+54209457|AP05-AA6-EV02. Diseño de arquitectura de software y hardware para el sistema de información en desarrollo.
