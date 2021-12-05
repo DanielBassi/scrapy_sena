@@ -6,3 +6,4 @@
 54209092|AP02-AA3-EV02. Especificación de requerimientos con casos de uso.
 54209322|AP04-AA5-EV02. Elaboración del prototipo del sistema de información a desarrollar.
 54209457|AP05-AA6-EV02. Diseño de arquitectura de software y hardware para el sistema de información en desarrollo.
+54209587|AP06-AA7-EV03. Diseño y desarrollo de la interfaz web del proyecto en curso.

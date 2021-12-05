@@ -55,7 +55,7 @@ class Interface:
         self.original = "DB/REPORTE/REPORTE.txt"
         self.copia = "DB/REPORTE/REPORTE2.txt"
         
-        #Creaci�n y configuracion de la ventana 
+        #Creación y configuracion de la ventana 
         self.window=Tk()
         self.window.title("BOT - Calificaciones SENA automatizadas")
         self.mainframe = ttk.Frame(self.window, padding="3 3 12 12")
@@ -167,7 +167,7 @@ class Interface:
                 shutil.copy(self.original, self.copia)
 
                 #Abrir archivo de reportes
-                reporte = open(self.original, "w")
+                reporte = open(self.original, "w", encoding="ISO-8859-1")
                 for ficha in self.fichas:
                     array_ficha = ficha.split('__')
                     print('Estoy Observando la ficha'+ array_ficha[1])
@@ -350,7 +350,7 @@ class Interface:
         #messagebox.showinfo(message="Se han calificado: %i" %count_qualifity, title="Mensaje del sistema")
     
     def obtenerComentario(self):
-        comentario = open(self.ruta_comentario, encoding='utf-8').read().split('\n')
+        comentario = open(self.ruta_comentario, encoding='ISO-8859-1').read().split('\n')
         return comentario[ random.randint( 0, len(comentario) ) ]
         
     def dirigir_a_evidencias(self, url):
@@ -368,7 +368,7 @@ class Interface:
     
     def getDataBase(self, file, separator = '|'):
         arr = []
-        with open(file, encoding='utf8') as inFile:
+        with open(file, encoding='ISO-8859-1') as inFile:
             arr = [line for line in inFile]
             arr = [f.split( separator )[0]+'__'+f.split( separator )[1] for f in arr]
         return arr
