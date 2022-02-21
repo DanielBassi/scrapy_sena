@@ -12,3 +12,5 @@
 55724502|Evidencia 1: Presentación ?Caracterización de la empresa?
 55724522|Evidencia 3: Informe ?Identificación de las tecnologías de la información?
 55724542|Evidencia 5: Manual ?Procesos y procedimientos logísticos?
+55725142|Evidencia 1: Artículo ?Tecnologías de la Información y la Comunicación?
+55725152|Evidencia 2: Cuadro comparativo ?Tecnologías de la Información y la Comunicación?

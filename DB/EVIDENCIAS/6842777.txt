@@ -12,3 +12,5 @@
 54452927|Evidencia 1: Presentación ?Caracterización de la empresa?
 54452952|Evidencia 3: Informe ?Identificación de las tecnologías de la información?
 54452972|Evidencia 5: Manual ?Procesos y procedimientos logísticos?
+54453577|Evidencia 1: Artículo ?Tecnologías de la Información y la Comunicación?
+54453587|Evidencia 2: Cuadro comparativo ?Tecnologías de la Información y la Comunicación?
