@@ -1,9 +1,0 @@
-55208137|Portafolio: Mis evidencias
-55208147|Resumen: Proyección de elección alternativa productiva
-55208442|AP01-AA1-EV01. Identificación de la necesidad de sistemas de información.
-55208452|AP01-AA1-EV02. Estructuración del proyecto del sistema en desarrollo.
-55208482|AP01-AA2-EV05. Especificación de los requerimientos funcionales y no funcionales del sistema.
-55208602|AP02-AA3-EV02. Especificación de requerimientos con casos de uso.
-55208837|AP04-AA5-EV02. Elaboración del prototipo del sistema de información a desarrollar.
-55208967|AP05-AA6-EV02. Diseño de arquitectura de software y hardware para el sistema de información en desarrollo.
-55209097|AP06-AA7-EV03. Diseño y desarrollo de la interfaz web del proyecto en curso.

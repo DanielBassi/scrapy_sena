@@ -1,6 +1,0 @@
-54303517|Portafolio: Mis evidencias
-54303527|Resumen: Proyección de elección alternativa productiva
-54303857|Evidencia 2: Taller "Identificar la importancia de la estadística y su aplicabilidad en la vida laboral"
-54303867|Evidencia 3: Cuadro comparativo "Determinar el software para consolidar la información en la cadena de abastecimiento"
-54303877|Evidencia 4: Ejercicio práctico "Implementar el manejo de software"
-54303897|Evidencia 6: Informe "Identificar los sistemas de información en una empresa"
