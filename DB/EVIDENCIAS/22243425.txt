@@ -3,3 +3,13 @@
 275890970|Relato: Trabajo colaborativo
 275891015|Portafolio: Mis evidencias
 275891025|Resumen: Proyección de elección alternativa productiva
+275891820|Infografía sobre la Teoría General de Sistemas. GA1-220501092-AA1-EV01
+275891825|Identificación de procesos organizacionales. GA1-220501092-AA1-EV02
+275891830|Mapa de procesos del software a construir. GA1-220501092-AA1-EV03
+275891845|Mapa mental sobre ingeniería de requisitos. GA1-220501092-AA2-EV01
+275891865|Diseño del instrumento de recolección de información. GA1-220501092-AA3-EV01
+275891870|Formulación del proyecto de software. GA1-220501092-AA3-EV02
+275891875|Formulario de recolección de información. GA1- 220501092-AA3-EV03
+275891955|Mapa conceptual - Software y servicios de internet. Relacionar correctamente los tipos de software y servicios de internet. GA1-220501046-AA1-EV01
+275891965|Taller. Utilización de las herramientas de Ofimática. Realizar un taller práctico con las herramientas Ofimáticas. GA1-220501046-AA2-EV01
+275891975|Informe mejora de productos y procesos con la incorporación de TIC. GA1-220501046-AA3-EV01
