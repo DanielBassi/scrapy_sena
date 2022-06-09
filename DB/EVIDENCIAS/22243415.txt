@@ -1,8 +1,3 @@
-275884200|Estudio de caso: La oportunidad de formarme
-275884210|Representación gráfica: Reconociendo mi ambiente formativo
-275884250|Relato: Trabajo colaborativo
-275884295|Portafolio: Mis evidencias
-275884305|Resumen: Proyección de elección alternativa productiva
 275885115|Infografía sobre la Teoría General de Sistemas. GA1-220501092-AA1-EV01
 275885120|Identificación de procesos organizacionales. GA1-220501092-AA1-EV02
 275885125|Mapa de procesos del software a construir. GA1-220501092-AA1-EV03
