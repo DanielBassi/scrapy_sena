@@ -47,7 +47,7 @@ class Interface:
     def __init__(self):
         #Propiedades
         self.email_username = "pythonacountexample@gmail.com"
-        self.email_password = "Sabanalarga1998"
+        self.email_password = "upigdwbzfjbempqz"
         self.email_to = ['Luis Avila <zluisigloxx@gmail.com>']
         self.email_today = datetime.datetime.now((pytz.timezone('America/Bogota')))
         self.email_date_time = self.email_today.strftime("%d/%m/%Y, %H:%M:%S")
