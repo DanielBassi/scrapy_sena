@@ -1,3 +1,8 @@
+275887555|Estudio de caso: La oportunidad de formarme
+275887565|Representación gráfica: Reconociendo mi ambiente formativo
+275887610|Relato: Trabajo colaborativo
+275887655|Portafolio: Mis evidencias
+275887665|Resumen: Proyección de elección alternativa productiva
 275888470|Infografía sobre la Teoría General de Sistemas. GA1-220501092-AA1-EV01
 275888475|Identificación de procesos organizacionales. GA1-220501092-AA1-EV02
 275888480|Mapa de procesos del software a construir. GA1-220501092-AA1-EV03
@@ -8,3 +13,15 @@
 275888605|Mapa conceptual - Software y servicios de internet. Relacionar correctamente los tipos de software y servicios de internet. GA1-220501046-AA1-EV01
 275888615|Taller. Utilización de las herramientas de Ofimática. Realizar un taller práctico con las herramientas Ofimáticas. GA1-220501046-AA2-EV01
 275888625|Informe mejora de productos y procesos con la incorporación de TIC. GA1-220501046-AA3-EV01
+275888130|Elaboración de diagramas y plantillas para casos de uso del proyecto. GA2-220501093-AA1-EV02
+275888135|Elaboración de historias de usuario del proyecto. GA2-220501093-AA1-EV03
+275888140|Diagramas y documentación de actividades del proyecto. GA2-220501093-AA1-EV04
+275888150|Elaboración de los diagramas del Modelo de dominio del proyecto. GA2-220501093-AA2-EV01
+275888165|Mapa conceptual sobre validación de documentos. GA2-220501093-AA3-EV01
+275888170|Elaboración del informe de análisis con listas de chequeo para la óde artefactos. GA2-220501093-AA3-EV02
+275888975|Bases conceptuales de lógica proposicional GA3-220501093-AA1-EV01
+275888980|Taller de resolución de problemas de algoritmos en pseudocódigo y diagramas de flujo GA3-220501093-AA1-EV02
+275888995|Fundamentos de programación estructurada y estructuras cíclicas GA3-220501093-AA2-EV01
+275889005|Taller aplicando funciones y procedimientos en la solución de algoritmos GA3-220501093-AA2-EV03
+275889020|Bases teóricas de estructuras de almacenamiento en memoria GA3-220501093-AA3-EV01
+275889025|Resolución a problemas algorítmicos aplicando estructuras de almacenamiento GA3-220501093-AA3-EV02

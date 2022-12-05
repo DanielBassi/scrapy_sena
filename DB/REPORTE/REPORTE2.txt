@@ -1,8 +1,0 @@
-ANALISIS Y DESARROLLO DE SOFTWARE. (2547397)|Infografía sobre la Teoría General de Sistemas. GA1-220501092-AA1-EV01|2
-ANALISIS Y DESARROLLO DE SOFTWARE. (2547397)|Identificación de procesos organizacionales. GA1-220501092-AA1-EV02|1
-ANALISIS Y DESARROLLO DE SOFTWARE. (2547398)|Infografía sobre la Teoría General de Sistemas. GA1-220501092-AA1-EV01|6
-ANALISIS Y DESARROLLO DE SOFTWARE. (2547398)|Identificación de procesos organizacionales. GA1-220501092-AA1-EV02|5
-ANALISIS Y DESARROLLO DE SOFTWARE. (2547398)|Mapa de procesos del software a construir. GA1-220501092-AA1-EV03|1
-ANALISIS Y DESARROLLO DE SOFTWARE. (2547398)|Mapa conceptual - Software y servicios de internet. Relacionar correctamente los tipos de software y servicios de internet. GA1-220501046-AA1-EV01|1
-ANALISIS Y DESARROLLO DE SOFTWARE. (2547399)|Infografía sobre la Teoría General de Sistemas. GA1-220501092-AA1-EV01|4
-ANALISIS Y DESARROLLO DE SOFTWARE. (2547399)|Identificación de procesos organizacionales. GA1-220501092-AA1-EV02|2
