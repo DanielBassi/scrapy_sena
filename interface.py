@@ -167,10 +167,10 @@ class Interface:
                 shutil.copy(self.original, self.copia)
 
                 #Abrir archivo de reportes
-                reporte = open(self.original, "w", encoding="ISO-8859-1")
+                reporte = open(self.original, "w", encoding="utf-8")
                 for ficha in self.fichas:
                     array_ficha = ficha.split('__')
-                    print('Estoy Observando la ficha'+ array_ficha[1])
+                    print('Estoy Observando la ficha '+ array_ficha[1])
                     try:
                         #Obtener listado de EVIDENCIAS pertenecientes ala FICHA
                         evidencia_actual = self.getDataBase( 'DB/EVIDENCIAS/'+array_ficha[0]+'.txt')
@@ -266,12 +266,13 @@ class Interface:
         
         #Actualizar FICHAS.txt
         if self.update_DB.get() == 1:
-            DB_file = open('DB/FICHAS/FICHAS.txt', "w", encoding='latin-1')
+            DB_file = open('DB/FICHAS/FICHAS.txt', "wb")
             for element in list_ficha_ids:
                 text = element.get_attribute("text")
                 href = element.get_attribute("href")
                 href = href.split("=", 1)[1]
-                DB_file.write( href+'|'+text+'\n' )
+                row = href+'|'+text+'\n'
+                DB_file.write( row.encode('utf-8') )
             DB_file.close()
 
         if self.fichas == []:
@@ -350,7 +351,7 @@ class Interface:
         #messagebox.showinfo(message="Se han calificado: %i" %count_qualifity, title="Mensaje del sistema")
     
     def obtenerComentario(self):
-        comentario = open(self.ruta_comentario, encoding='ISO-8859-1').read().split('\n')
+        comentario = open(self.ruta_comentario, encoding='utf-8').read().split('\n')
         return comentario[ random.randint( 0, len(comentario) ) ]
         
     def dirigir_a_evidencias(self, url):
@@ -368,7 +369,7 @@ class Interface:
     
     def getDataBase(self, file, separator = '|'):
         arr = []
-        with open(file, encoding='ISO-8859-1') as inFile:
+        with open(file, encoding='latin1') as inFile:
             arr = [line for line in inFile]
             arr = [f.split( separator )[0]+'__'+f.split( separator )[1] for f in arr]
         return arr

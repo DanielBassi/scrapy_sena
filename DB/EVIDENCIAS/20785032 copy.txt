@@ -1,0 +1,175 @@
+253170512|Aplicación de buenas prácticas de calidad documentadas en las disciplinas de calidad de software. GA11-220501098-AA1-EV02
+253170382|Archivos cargados en la plataforma de producción GA10-220501097-AA6-EV01
+253170522|Bitácoras con los procesos documentados. GA11-220501098-AA1-EV04
+253170362|Conceptos y principios acerca de configuración se servicios GA10-220501097-AA4-EV01
+253170332|Conceptos y principios de hardware e instalación de software GA10-220501097-AA1-EV01
+253170537|Creación de informe con los resultados del comportamiento del software. GA11-220501098-AA2-EV01
+253170607|Cuadro comparativo sobre el derecho de petición y la acción de tutela. GA11-210201501-AA3-EV03
+253170402|Diseñar plan de mantenimiento y soporte del software GA10-220501097-AA8-EV01
+253170517|Diseño y diligenciamiento de instrumentos para documentar procesos de calidad del software. GA11-220501098-AA1-EV03
+253170412|Documentación de plan de migración y respaldo de los datos del software GA10-220501097-AA9-EV01
+253170452|Documentación plan de capacitación y Acta de entrega del proyecto de software GA10-220501097-AA13-EV01
+253170312|Documento colaborativo. Solución del caso GA9-240201526-AA6-EV01
+253170562|Documento con las verificaciones de condiciones de calidad del producto de software ajustado. GA11-220501098-AA3-EV02
+253170462|DOFA Personal. Identificar habilidades personales como emprendedor GA10-240201529-AA1-EV01
+253170422|Elabora documentos técnicos y de usuario del software GA10-220501097-AA10-EV01
+253170432|Elabora el manual de usuario de acuerdo con las funcionalidades del software GA10-220501097-AA11-EV01
+253170442|Elabora plan de capacitación y realización de pruebas de aceptación del cliente GA10-220501097-AA12-EV01
+253170342|Elaborar plan de validación de características mínimas de hardware para el software GA10-220501097-AA2-EV01
+253170637|Gráfico sobre la negociación colectiva. GA11-210201501-AA2-EV03
+253170507|Infografía procesos de desarrollo del software. GA11-220501098-AA1-EV01
+253170642|Infografía sobre la huelga. GA11-210201501-AA2-EV04
+253170627|Informe sobre trabajo decente, ciudadanía laboral, derechos individuales y colectivos en el trabajo. GA11-210201501-AA2-EV01
+253170597|Mapa mental violación de derechos del trabajo. GA11-210201501-AA3-EV01
+253170472|Modelo CANVAS del emprendimiento. Crear modelo de negocio en el que se caracteriza el emprendimiento GA10-240201529-AA2-EV01
+253170482|Modelo financiero. Proyectar viabilidad financiera del emprendimiento GA10-240201529-AA3-EV01
+253170662|Presentación. GA11-210201501-AA4-EV02
+253170557|Realiza ajustes en los procesos de desarrollo. GA11-220501098-AA3-EV01
+253170372|Realiza la configuración de servicios, bases de datos y software en el equipo del cliente GA10-220501097-AA5-EV01
+253170392|Realización de pruebas de funcionalidad del software GA10-220501097-AA7-EV01
+253170542|Realizar informe de las experiencias aprendidas en el proceso de verificación del software. GA11-220501098-AA2-EV02
+253170352|Software instalado en la plataforma del cliente GA10-220501097-AA3-EV01
+253170577|Taller. GA11-210201501-AA1-EV01
+253170612|Texto argumentativo. GA11-210201501-AA3-EV04
+253170087|API del Proyecto GA7-220501096-AA5-EV04
+253170077|API GA7-220501096-AA5-EV02
+253170137|APK (Desarrollar módulos móvil según requerimientos del proyecto) GA8-220501096-AA2-EV02
+253170007|Codificación de módulos del software según requerimientos del proyecto GA7-220501096-AA2-EV01
+253170027|Codificación de módulos del software Stand-alone, web y móvil de acuerdo al proyecto a desarrollar GA7-220501096-AA3-EV01
+253170057|Componente front-end del proyecto formativo y proyectos de clase (listas de chequeo) GA7-220501096-AA4-EV03
+253169787|Crea Modelo entidad relación de caso GA6-220501096-AA1-EV02
+253169817|Creación de la estructura de la BD y aplicación de restricciones GA6-220501096-AA2-EV02
+253169792|Creación de los objetos de la Base de Datos GA6-220501096-AA1-EV03
+253169842|Crear el diseño del sitio web y/o móviles utilizando sus componentes y tecnologías respectivas GA6-220501096-AA3-EV02
+253169977|Definir estándares de codificación de acuerdo a plataforma de desarrollo elegida GA7-220501096-AA1-EV02
+253170112|Desarrollar software a partir de la integración de sus módulos componentes GA8-220501096-AA1-EV01
+253169812|Destrezas y conocimientos en el manejo de sentencias DDL y DML de SQL GA6-220501096-AA2-EV01
+253170282|Diagrama de sistemas. Relación del individuo con el entorno GA9-240201526-AA3-EV01
+253170232|Diseña casos y define el ambiente de pruebas de software según proyecto GA9-220501096-AA2-EV01
+253169872|Diseño front-end que cumpla con los requerimientos del proyecto GA6-220501096-AA4-EV03
+253170072|Diseño y Desarrollo de servicios web - caso GA7-220501096-AA5-EV01
+253170082|Diseño y Desarrollo de servicios web - proyecto GA7-220501096-AA5-EV03
+253170247|Documenta pruebas de software de acuerdo a la planificación GA9-220501096-AA3-EV01
+253169937|Documento escrito GA6-240202501-AA1-EV01
+253170292|Ejemplo de una marca sostenible que cumpla con TRIPLE BOTTOM LINE GA9-240201526-AA4-EV01
+253169797|Elaboración de las Bases de Datos GA6-220501096-AA1-EV04
+253169867|Establecer los componentes front-end de la aplicación web GA6-220501096-AA4-EV02
+253169912|Ficha antropométrica de valoración de la condición física GA6-230101507-AA3-EV02
+253169922|Folleto de lesiones más comunes en el trabajo o vida cotidiana, y la importancia de las pausas activas GA6-230101507-AA4-EV01
+253169862|Fundamentos en la implementación de componentes front-end, HTML, CSS, JS GA6-220501096-AA4-EV01
+253169992|Herramientas de versionamiento (GIT) instalada y configurada GA7-220501096-AA1-EV05
+253169982|Identifica herramientas de versionamiento GA7-220501096-AA1-EV03
+253169892|Infografía - Plan de higiene y gasto calórico GA6-230101507-AA2-EV01
+253169972|Informe técnico de plan de trabajo para construcción de software GA7-220501096-AA1-EV01
+253169987|Instalación y configuración de herramienta de versionamiento (Local / Web) GA7-220501096-AA1-EV04
+253169847|Interfaces gráficas según requerimientos del proyecto GA6-220501096-AA3-EV03
+253169907|Mapa mental - capacidades físicas condicionales GA6-230101507-AA3-EV01
+253170182|Mapa mental respecto a los planes y acciones establecidos en medio ambiente y SST GA8-220601501-AA3-EV01
+253170302|Mapa mental. Hitos del conflicto armado en Colombia en los últimos 50 años GA9-240201526-AA5-EV01
+253170012|Módulos de software codificados y probados GA7-220501096-AA2-EV02
+253170032|Módulos de software codificados y probados GA7-220501096-AA3-EV02
+253170117|Módulos integrados GA8-220501096-AA1-EV02
+253170172|Presentación sobre las estrategias para la prevención y control de los impactos ambientales, accidentes y enfermedades laborales (ATEL) GA8-220601501-AA2-EV01
+253170222|Realiza plan pruebas de software GA9-220501096-AA1-EV02
+253170252|Reporte de plan de pruebas ejecutados GA9-220501096-AA3-EV02
+253169782|Resolución de problemas aplicando el modelo relacional, cardinalidad y normalización GA6-220501096-AA1-EV01
+253169822|Script Bases de Datos del Proyecto GA6-220501096-AA2-EV03
+253169837|Selección herramientas para prototipado GA6-220501096-AA3-EV01
+253170132|Taller acerca de integración, tecnologías emergentes y disruptivas GA8-220501096-AA2-EV01
+253170262|Taller de reflexión escrita. Caso Malala GA9-240201526-AA1-EV01
+253170217|Taller sobre codificación de módulos del software GA9-220501096-AA1-EV01
+253170047|Taller sobre componentes front-end GA7-220501096-AA4-EV01
+253170142|Taller sobre tecnologías emergentes y disruptivas GA8-220501096-AA2-EV03
+253170152|Texto argumentativo sobre Blockchain GA8-220501096-AA2-EV05
+253170052|Verificación de procedimientos para la definición de componentes front-end de la aplicación (Listas de chequeo) GA7-220501096-AA4-EV02
+253170147|Video exposición sobre Machine learning GA8-220501096-AA2-EV04
+253170192|Video expositivo sobre oportunidades de mejora en medio ambiente y SST GA8-220601501-AA4-EV01
+253169942|Video GA6-240202501-AA1-EV02
+253170272|Video presentación. Proyecto de vida GA9-240201526-AA2-EV01
+253169027|Audio GA3-240202501-AA1-EV02
+253169052|Audio GA3-240202501-AA2-EV02
+253169117|Bases conceptuales acerca del lenguaje unificado de modelado (UML) y patrones de diseño GA4-220501095-AA2-EV03
+253168907|Bases conceptuales de lógica proposicional GA3-220501093-AA1-EV01
+253168952|Bases teóricas de estructuras de almacenamiento en memoria GA3-220501093-AA3-EV01
+253169007|Bitácora de procesos desarrollados en la competencia GA3-220201501-AA4-EV02
+253169127|Desarrollar la arquitectura de software de acuerdo al patrón de diseño seleccionado GA4-220501095-AA2-EV05
+253169122|Diagrama de Clases del proyecto de software GA4-220501095-AA2-EV04
+253169157|Diagrama de despliegue para caso de estudio y proyecto de software GA4-220501095-AA3-EV03
+253169277|Diagrama de flujo sobre las instrucciones de un proceso relacionado con su quehacer laboral GA5-240202501-AA1-EV01
+253169087|Diseñar el modelo conceptual y lógico de acuerdo al caso de estudio GA4-220501095-AA1-EV01
+253169177|Diseño de instrumentos para verificación de artefactos GA4-220501095-AA4-EV02
+253169332|Elaboración de interfaz gráfica y mapa de navegación cumpliendo con reglas de usabilidad y accesibilidad app móvil GA5-220501095-AA1-EV07
+253169312|Elaboración de interfaz gráfica y mapa de navegación cumpliendo con reglas de usabilidad y accesibilidad GA5-220501095-AA1-EV03
+253169282|Ensayo sobre las etapas básicas del proceso de una empresa y las personas en un equipo de trabajo GA5-240202501-AA1-EV02
+253168927|Fundamentos de programación estructurada y estructuras cíclicas GA3-220501093-AA2-EV01
+253169082|Identificar entidades y relaciones planteadas en el caso de estudio GA4-220501093-AA1-EV01
+253169112|Informe de entregables para el proyecto de desarrollo de software GA4-220501095-AA2-EV02
+253169187|Informe de evaluación a los artefactos de diseño del software GA4-220501095-AA4-EV04
+253168987|Informe de laboratorio GA3-220201501-AA3-EV01
+253169207|Informe. Creación de contenidos comunicativos GA4-240201524-AA2-EV01
+253169182|Listas de chequeo para validación de documentación de diseño GA4-220501095-AA4-EV03
+253169147|Mapa conceptual para Identificación y caracterización de los componentes del ciclo de vida del software GA4-220501095-AA3-EV01
+253169322|Mapa de Navegación GA5-220501095-AA1-EV05
+253169252|Mapa mental - características socioeconómicas, tecnológicas, políticas y culturales del contexto productivo inmediato GA5-240201064-AA1-EV01
+253169227|Mapa mental sobre su (Personal Learning Environment) PLE GA4-240202501-AA1-EV02
+253169317|Maquetación de la Interfaz gráfica en HTML GA5-220501095-AA1-EV04
+253169337|Maquetación de la Interfaz gráfica en XML - Android GA5-220501095-AA1-EV08
+253169092|Modelos conceptual y lógico para el proyecto desarrollo de software GA4-220501095-AA1-EV02
+253169327|Nociones de reglas de usabilidad y accesibilidad en aplicaciones independientes, móviles GA5-220501095-AA1-EV06
+253169307|Nociones de reglas de usabilidad y accesibilidad en aplicaciones independientes, web GA5-220501095-AA1-EV02
+253169262|Propuesta de investigación formativa GA5-240201064-AA2-EV01
+253168957|Resolución a problemas algorítmicos aplicando estructuras de almacenamiento GA3-220501093-AA3-EV02
+253168937|Taller aplicando funciones y procedimientos en la solución de algoritmos GA3-220501093-AA2-EV03
+253169132|Taller Arquitectura de software GA4-220501095-AA2-EV06
+253169107|Taller de conceptos y principios de programación orientada a objetos GA4-220501095-AA2-EV01
+253168912|Taller de resolución de problemas de algoritmos en pseudocódigo y diagramas de flujo GA3-220501093-AA1-EV02
+253169302|Taller sobre construcción del prototipo del software de acuerdo al análisis de las características funcionales y de calidad GA5-220501095-AA1-EV01
+253169172|Taller sobre validación de documentos GA4-220501095-AA4-EV01
+253169287|Video sobre las etapas básicas del proceso de una empresa y las personas en un equipo de trabajo GA5-240202501-AA1-EV03
+253168977|Video-expositivo sobre experimento de aplicación GA3-220201501-AA2-EV01
+253169002|Video-expositivo sobre experimento de aplicación GA3-220201501-AA4-EV01
+253169197|Video. La comunicación como expresión humana GA4-240201524-AA1-EV01
+253168212|Algoritmo para el cálculo de áreas y volúmenes. GA2-240201528-AA4-EV01
+253168262|Crónica. GA2-240202501-AA1-EV03
+253168067|Diagramas y documentación de actividades del proyecto. GA2-220501093-AA1-EV04
+253168117|Diseño de las fichas técnicas para la recolección de la información. GA2-220501094-AA1-EV02
+253168147|Diseño de tablas comparativas sobre presupuestos de hardware y software. GA2-220501094-AA3-EV01
+253168447|Diseño del instrumento de recolección de información. GA1-220501092-AA3-EV01
+253168477|Documento con especificación de requerimientos. GA1-220501092-AA4-EV02
+253168237|Documento escrito. GA2-240202501-AA2-EV03
+253168532|Documento identificando la metodología para el proyecto de desarrollo de software. GA1-220501093-AA1-EV04
+253168057|Elaboración de diagramas y plantillas para casos de uso del proyecto. GA2-220501093-AA1-EV02
+253168062|Elaboración de historias de usuario del proyecto. GA2-220501093-AA1-EV03
+253168077|Elaboración de los diagramas del Modelo de dominio del proyecto. GA2-220501093-AA2-EV01
+253168097|Elaboración del informe de análisis con listas de chequeo para la validación de artefactos. GA2-220501093-AA3-EV02
+253168122|Especificación de los referentes técnicos del hardware - software y estimación de las condiciones económicas. GA2-220501094-AA1-EV03
+253168472|Especificación de los requerimientos funcionales y no funcionales del software. GA1-220501092-AA4-EV01
+253168132|Ficha técnica de los productos requeridos, los términos de referencia para el contrato y lista de chequeo para evaluación de proveedores. GA2-220501094-AA2-EV01
+253168587|Folleto. GA1-240202501-AA1-EV03
+253168452|Formulación del proyecto de software. GA1-220501092-AA3-EV02
+253168457|Formulario de recolección de información. GA1- 220501092-AA3-EV03
+253168407|Identificación de procesos organizacionales. GA1-220501092-AA1-EV02
+253168402|Infografía sobre la Teoría General de Sistemas. GA1-220501092-AA1-EV01
+253168522|Infografía sobre metodologías de desarrollo de software. GA1-220501093-AA1-EV02
+253168497|Informe de evaluación de los requerimientos. GA1-220501092-AA5-EV02
+253168562|Informe mejora de productos y procesos con la incorporación de TIC. GA1-220501046-AA3-EV01
+253168542|Mapa conceptual - Software y servicios de internet. Relacionar correctamente los tipos de software y servicios de internet. GA1-220501046-AA1-EV01
+253168092|Mapa conceptual sobre validación de documentos. GA2-220501093-AA3-EV01
+253168412|Mapa de procesos del software a construir. GA1-220501092-AA1-EV03
+253168427|Mapa mental sobre ingeniería de requisitos. GA1-220501092-AA2-EV01
+253168192|Planteamiento de ecuación. GA2-240201528-AA2-EV01
+253168232|Presentación. GA2-240202501-AA2-EV02
+253168152|Propuesta técnica y económica para la implementación del proyecto. GA2-220501094-AA3-EV02
+253168172|Propuestas técnica y económica con ajustes de acuerdo a la negociación tecnológica. GA2-220501094-AA4-EV02
+253168167|Taller de especificación del modelo conceptual y estructurar la propuesta técnica del proyecto de software. GA2-220501094-AA4-EV01
+253168492|Taller para la determinación de las especificaciones funcionales del software y metodología a utilizar. GA1-220501092-AA5-EV01
+253168517|Taller sobre metodologías de desarrollo de software. GA1-220501093-AA1-EV01
+253168552|Taller. Utilización de las herramientas de Ofimática. Realizar un taller práctico con las herramientas ofimáticas. GA1-220501046-AA2-EV01
+253168257|Vídeo entrevista virtual. GA2-240202501-AA1-EV02
+253168582|Video presentación. GA1-240202501-AA1-EV02
+253168202|Video sustentación. GA2-240201528-AA3-EV01
+253167502|Representación gráfica: Reconociendo mi ambiente formativo
+253167602|Resumen: Proyección de elección alternativa productiva
+253167492|Estudio de caso: La oportunidad de formarme
+253167592|Portafolio: Mis evidencias
+253167542|Relato: Trabajo colaborativo
