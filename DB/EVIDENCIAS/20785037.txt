@@ -1,39 +1,43 @@
-253172417|Bases conceptuales acerca del lenguaje unificado de modelado (UML) y patrones de diseño GA4-220501095-AA2-EV03
-253172207|Bases conceptuales de lógica proposicional GA3-220501093-AA1-EV01
-253172252|Bases teóricas de estructuras de almacenamiento en memoria GA3-220501093-AA3-EV01
-253172427|Desarrollar la arquitectura de software de acuerdo al patrón de diseño seleccionado GA4-220501095-AA2-EV05
+253172417|Bases conceptuales acerca del lenguaje unificado de modelado (UML) y patrones de diseï¿½o GA4-220501095-AA2-EV03
+253172207|Bases conceptuales de lï¿½gica proposicional GA3-220501093-AA1-EV01
+253172252|Bases teï¿½ricas de estructuras de almacenamiento en memoria GA3-220501093-AA3-EV01
+253172427|Desarrollar la arquitectura de software de acuerdo al patrï¿½n de diseï¿½o seleccionado GA4-220501095-AA2-EV05
 253172422|Diagrama de Clases del proyecto de software GA4-220501095-AA2-EV04
-253172637|Elaboración de interfaz gráfica y mapa de navegación cumpliendo con reglas de usabilidad y accesibilidad app móvil GA5-220501095-AA1-EV07
-253172617|Elaboración de interfaz gráfica y mapa de navegación cumpliendo con reglas de usabilidad y accesibilidad GA5-220501095-AA1-EV03
-253172227|Fundamentos de programación estructurada y estructuras cíclicas GA3-220501093-AA2-EV01
+253172637|Elaboraciï¿½n de interfaz grï¿½fica y mapa de navegaciï¿½n cumpliendo con reglas de usabilidad y accesibilidad app mï¿½vil GA5-220501095-AA1-EV07
+253172617|Elaboraciï¿½n de interfaz grï¿½fica y mapa de navegaciï¿½n cumpliendo con reglas de usabilidad y accesibilidad GA5-220501095-AA1-EV03
+253172227|Fundamentos de programaciï¿½n estructurada y estructuras cï¿½clicas GA3-220501093-AA2-EV01
 253172412|Informe de entregables para el proyecto de desarrollo de software GA4-220501095-AA2-EV02
-253172627|Mapa de Navegación GA5-220501095-AA1-EV05
-253172557|Mapa mental - características socioeconómicas, tecnológicas, políticas y culturales del contexto productivo inmediato GA5-240201064-AA1-EV01
-253172622|Maquetación de la Interfaz gráfica en HTML GA5-220501095-AA1-EV04
-253172642|Maquetación de la Interfaz gráfica en XML - Android GA5-220501095-AA1-EV08
-253172632|Nociones de reglas de usabilidad y accesibilidad en aplicaciones independientes, móviles GA5-220501095-AA1-EV06
+253172627|Mapa de Navegaciï¿½n GA5-220501095-AA1-EV05
+253172557|Mapa mental - caracterï¿½sticas socioeconï¿½micas, tecnolï¿½gicas, polï¿½ticas y culturales del contexto productivo inmediato GA5-240201064-AA1-EV01
+253172622|Maquetaciï¿½n de la Interfaz grï¿½fica en HTML GA5-220501095-AA1-EV04
+253172642|Maquetaciï¿½n de la Interfaz grï¿½fica en XML - Android GA5-220501095-AA1-EV08
+253172632|Nociones de reglas de usabilidad y accesibilidad en aplicaciones independientes, mï¿½viles GA5-220501095-AA1-EV06
 253172612|Nociones de reglas de usabilidad y accesibilidad en aplicaciones independientes, web GA5-220501095-AA1-EV02
-253172567|Propuesta de investigación formativa GA5-240201064-AA2-EV01
-253172257|Resolución a problemas algorítmicos aplicando estructuras de almacenamiento GA3-220501093-AA3-EV02
-253172237|Taller aplicando funciones y procedimientos en la solución de algoritmos GA3-220501093-AA2-EV03
+253172567|Propuesta de investigaciï¿½n formativa GA5-240201064-AA2-EV01
+253172257|Resoluciï¿½n a problemas algorï¿½tmicos aplicando estructuras de almacenamiento GA3-220501093-AA3-EV02
+253172237|Taller aplicando funciones y procedimientos en la soluciï¿½n de algoritmos GA3-220501093-AA2-EV03
 253172432|Taller Arquitectura de software GA4-220501095-AA2-EV06
-253172407|Taller de conceptos y principios de programación orientada a objetos GA4-220501095-AA2-EV01
-253172212|Taller de resolución de problemas de algoritmos en pseudocódigo y diagramas de flujo GA3-220501093-AA1-EV02
-253172607|Taller sobre construcción del prototipo del software de acuerdo al análisis de las características funcionales y de calidad GA5-220501095-AA1-EV01
-253171377|Diagramas y documentación de actividades del proyecto. GA2-220501093-AA1-EV04
-253171832|Documento identificando la metodología para el proyecto de desarrollo de software. GA1-220501093-AA1-EV04
-253171367|Elaboración de diagramas y plantillas para casos de uso del proyecto. GA2-220501093-AA1-EV02
-253171372|Elaboración de historias de usuario del proyecto. GA2-220501093-AA1-EV03
-253171387|Elaboración de los diagramas del Modelo de dominio del proyecto. GA2-220501093-AA2-EV01
-253171407|Elaboración del informe de análisis con listas de chequeo para la validación de artefactos. GA2-220501093-AA3-EV02
-253171862|Informe mejora de productos y procesos con la incorporación de TIC. GA1-220501046-AA3-EV01
+253172407|Taller de conceptos y principios de programaciï¿½n orientada a objetos GA4-220501095-AA2-EV01
+253172212|Taller de resoluciï¿½n de problemas de algoritmos en pseudocï¿½digo y diagramas de flujo GA3-220501093-AA1-EV02
+253172607|Taller sobre construcciï¿½n del prototipo del software de acuerdo al anï¿½lisis de las caracterï¿½sticas funcionales y de calidad GA5-220501095-AA1-EV01
+253171377|Diagramas y documentaciï¿½n de actividades del proyecto. GA2-220501093-AA1-EV04
+253171832|Documento identificando la metodologï¿½a para el proyecto de desarrollo de software. GA1-220501093-AA1-EV04
+253171367|Elaboraciï¿½n de diagramas y plantillas para casos de uso del proyecto. GA2-220501093-AA1-EV02
+253171372|Elaboraciï¿½n de historias de usuario del proyecto. GA2-220501093-AA1-EV03
+253171387|Elaboraciï¿½n de los diagramas del Modelo de dominio del proyecto. GA2-220501093-AA2-EV01
+253171407|Elaboraciï¿½n del informe de anï¿½lisis con listas de chequeo para la validaciï¿½n de artefactos. GA2-220501093-AA3-EV02
+253171862|Informe mejora de productos y procesos con la incorporaciï¿½n de TIC. GA1-220501046-AA3-EV01
 253171842|Mapa conceptual - Software y servicios de internet. Relacionar correctamente los tipos de software y servicios de internet. GA1-220501046-AA1-EV01
-253171402|Mapa conceptual sobre validación de documentos. GA2-220501093-AA3-EV01
-253171817|Taller sobre metodologías de desarrollo de software. GA1-220501093-AA1-EV01
-253171852|Taller. Utilización de las herramientas de Ofimática. Realizar un taller práctico con las herramientas ofimáticas. GA1-220501046-AA2-EV01
-253173142|Selección herramientas para prototipado GA6-220501096-AA3-EV01
-253173147|Crear el diseño del sitio web y/o móviles utilizando sus componentes y tecnologías respectivas GA6-220501096-AA3-EV02
-253173152|Interfaces gráficas según requerimientos del proyecto GA6-220501096-AA3-EV03
-253173167|Fundamentos en la implementación de componentes front-end, HTML, CSS, JS GA6-220501096-AA4-EV01
-253173172|Establecer los componentes front-end de la aplicación web GA6-220501096-AA4-EV02
-253173177|Diseño front-end que cumpla con los requerimientos del proyecto GA6-220501096-AA4-EV03
+253171402|Mapa conceptual sobre validaciï¿½n de documentos. GA2-220501093-AA3-EV01
+253171817|Taller sobre metodologï¿½as de desarrollo de software. GA1-220501093-AA1-EV01
+253171852|Taller. Utilizaciï¿½n de las herramientas de Ofimï¿½tica. Realizar un taller prï¿½ctico con las herramientas ofimï¿½ticas. GA1-220501046-AA2-EV01
+253173142|Selecciï¿½n herramientas para prototipado GA6-220501096-AA3-EV01
+253173147|Crear el diseï¿½o del sitio web y/o mï¿½viles utilizando sus componentes y tecnologï¿½as respectivas GA6-220501096-AA3-EV02
+253173152|Interfaces grï¿½ficas segï¿½n requerimientos del proyecto GA6-220501096-AA3-EV03
+253173167|Fundamentos en la implementaciï¿½n de componentes front-end, HTML, CSS, JS GA6-220501096-AA4-EV01
+253173172|Establecer los componentes front-end de la aplicaciï¿½n web GA6-220501096-AA4-EV02
+253173177|Diseï¿½o front-end que cumpla con los requerimientos del proyecto GA6-220501096-AA4-EV03
+253173312|Codificaciï¿½n de mï¿½dulos del software segï¿½n requerimientos del proyecto GA7-220501096-AA2-EV01
+253173317|Mï¿½dulos de software codificados y probados GA7-220501096-AA2-EV02
+253173332|Codificaciï¿½n de mï¿½dulos del software Stand-alone, web y mï¿½vil de acuerdo al proyecto a desarrollar GA7-220501096-AA3-EV01
+253173337|Mï¿½dulos de software codificados y probados GA7-220501096-AA3-EV02

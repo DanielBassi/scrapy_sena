@@ -1,0 +1,86 @@
+414961012|Cuadro comparativo sobre el derecho de petición y la acción de tutela. GA8-210201501-AA3-EV03.
+414960897|Diagrama de flujo. GA7-240202501-AA2-EV01.
+414961127|Diseño de instrumentos para probar el funcionamiento y escalabilidad del producto multimedia. GA9-220501102-AA1-EV03.
+414961082|Documento escrito. GA8-240202501-AA1-EV01.
+414961047|DOFA Personal. Identificar habilidades personales como emprendedor. GA8-240201529-AA1-EV01.
+414960902|Ensayo. GA7-240202501-AA2-EV02.
+414960982|Gráfico sobre la negociación colectiva. GA8-210201501-AA2-EV03.
+414960937|Infografía de resultados de pruebas de usuario y de herramientas de CRM. G8-220501102-AA1-EV02.
+414960987|Infografía sobre la huelga. GA8-210201501-AA2-EV04.
+414961142|Informe del conjunto de acciones para el posicionamiento del proyecto multimedia. GA9-220501102-AA2-EV01.
+414961122|Informe del manual de usuario y de los elementos de merchandising a utilizar en el proyecto. GA9-220501102-AA1-EV02.
+414960972|Informe sobre trabajo decente, ciudadanía laboral, derechos individuales y colectivos en el trabajo . GA8-210201501-AA2-EV01.
+414961002|Mapa mental violación de derechos del trabajo. GA8-210201501-AA3-EV01.
+414960877|Mapa mental. GA7-240202501-AA1-EV02.
+414961057|Modelo CANVAS del emprendimiento. Crear modelo de negocio en el que se caracteriza el emprendimiento. GA8-240201529-AA2-EV01.
+414961067|Modelo financiero. Proyectar viabilidad financiera del emprendimiento. GA8-240201529-AA3-EV01.
+414961037|Presentación. GA8-210201501-AA4-EV02.
+414961117|Probar el funcionamiento de la plataforma seleccionada. GA9-220501102-AA1-EV01.
+414960932|Pruebas de accesibilidad, escalabilidad y usabilidad. GA8-220501102-AA1-EV01.
+414961147|Publicación del proyecto multimedia en la plataforma de gestión de contenidos seleccionada. GA9-220501102-AA2-EV02.
+414960952|Taller. GA8-210201501-AA1-EV01.
+414961017|Texto argumentativo. GA8-210201501-AA3-EV04.
+414960907|Video. GA7-240202501-AA2-EV03.
+414961087|Video. GA8-240202501-AA1-EV02.
+414960577|Audio. GA4-240202501-AA1-EV02.
+414960602|Audio. GA4-240202501-AA2-EV02.
+414960462|Bitácora de procesos desarrollados en la competencia. GA3-220201501-AA4-EV02.
+414960847|Codificación de los elementos y componentes gráficos e interactivos necesarios para la elaboración del producto multimedia. GA7-220501102-AA1-EV01.
+414960487|Crónica. GA3-240202501-AA1-EV03.
+414960672|Diagrama de sistemas. Relación del individuo con el entorno. GA5-240201526-AA3-EV01.
+414960702|Documento colaborativo. Solución del caso. GA5-240201526-AA6-EV01.
+414960512|Documento escrito. GA3-240202501-AA2-EV03.
+414960682|Ejemplo de una marca sostenible que cumpla con TRIPLE BOTTOM LINE. GA5-240201526-AA4-EV01.
+414960732|Ficha antropométrica de valoración de la condición física. GA5-230101507-AA3-EV01.
+414960742|Folleto de lesiones más comunes en el trabajo o vida cotidiana, y la importancia de las pausas activas. GA5-230101507-AA4-EV01.
+414960537|Formatos de los elementos gráficos, audiovisuales y los componentes interactivos y su distribución en la pantalla. GA4-220501101-AA1-EV01.
+414960722|Infografía - Estilos de vida saludable. GA5-230101507-AA2-EV01.
+414960857|Infografía de las bases de datos y técnicas de optimización a utilizar en el proyecto. GA7-220501102-AA1-EV03.
+414960557|Informe de estándares de usabilidad y accesibilidad. GA4-220501101-AA1-EV05
+414960637|Informe de formatos de salida de los elementos gráficos, audiovisuales e interactivos elegidos para el desarrollo de la multimedia. GA5-220501101-AA1-EV02.
+414960407|Informe de la arquitectura del proyecto (diseño, interacción, accesibilidad, usabilidad). GA3- 220501101-AA1-EV03.
+414960782|Informe de la estructura de la aplicación. GA6-220501102-AA1-EV03.
+414960442|Informe de laboratorio. GA3-220201501-AA3-EV01.
+414960542|Informe de los elementos gráficos, audiovisuales e interactivos del proyecto de acuerdo con el documento definido. GA4-220501101-AA1-EV02.
+414960642|Informe de pruebas de usabilidad y accesibilidad para definir ajustes del proyecto . GA5-220501101-AA1-EV03.
+414960552|Informe del prototipo del proyecto. GA4-220501101-AA1-EV04.
+414960812|Mapa mental respecto a los planes y acciones establecidos en medio ambiente y SST. GA6-220601501-AA3-EV01.
+414960692|Mapa mental. Hitos del conflicto armado en Colombia en los últimos 50 años. GA5-240201526-AA5-EV01.
+414960802|Presentación sobre las estrategias para la prevención y control de los impactos ambientales, accidentes y enfermedades laborales (ATEL). GA6-220601501-AA2-EV01.
+414960507|Presentación. GA3-240202501-AA2-EV02.
+414960777|Presentar la plataforma elegida para el proyecto. GA6-220501102-AA1-EV02.
+414960772|Socializar los elementos y componentes gráficos e interactivos necesarios para la elaboración del producto multimedia. GA6-220501102-AA1-EV01.
+414960632|Sustentación de instrumentos de pruebas de usabilidad y accesibilidad. GA5-220501101-AA1-EV01.
+414960852|Sustentación de las metodologías ágiles y herramientas de programación del proyecto. GA7-220501102-AA1-EV02.
+414960547|Sustentación de los componentes audiovisuales del proyecto. GA4-220501101-AA1-EV03.
+414960652|Taller de reflexión escrita. Caso Malala. GA5-240201526-AA1-EV01.
+414960482|Vídeo entrevista virtual. GA3-240202501-AA1-EV02.
+414960822|Video expositivo sobre oportunidades de mejora en medio ambiente y SST. GA6-220601501-AA4-EV01.
+414960662|Video presentación. Proyecto de vida. GA5-240201526-AA2-EV01.
+414960432|Video-expositivo sobre experimento de aplicación. GA3-220201501-AA2-EV01.
+414960457|Video-expositivo sobre experimento de aplicación. GA3-220201501-AA4-EV01.
+414960342|Acta con los ajustes que resultaron de las observaciones del cliente y los usuarios. GA2-220501100-AA1-EV03.
+414960232|Algoritmo para el cálculo de áreas y volúmenes. GA1-240201528-AA4-EV01.
+414960337|Elaborar la propuesta del proyecto a través del análisis de los requerimientos obtenidos. GA2-220501100-AA1-EV02.
+414960307|Folleto. GA1-240202501-AA1-EV03.
+414960402|Infografía de interfaces intuitivas y usables. GA3-220501101-AA1-EV02.
+414960187|Informe de los instrumentos de recolección de información. GA1-220501100-AA1-EV02.
+414960192|Informe de los requisitos técnicos del proyecto. GA1-220501100-AA1-EV03.
+414960282|Informe mejora de productos y procesos con la incorporación de TIC . GA1-220501046-AA3-EV01.
+414960252|Informe. Creación de contenidos comunicativos. GA1-240201524-AA2-EV01.
+414960262|Mapa conceptual - Software y servicios de Internet. GA1-220501046-AA1-EV01.
+414960357|Mapa mental. GA2-240201064-AA1-EV01.
+414960212|Planteamiento de ecuación. GA1-240201528-AA2-EV01.
+414960332|Presentar al cliente el plan de trabajo, la estructura de costos y el concepto gráfico del proyecto. GA2-220501100-AA1-EV01
+414960367|Propuesta de investigación. GA2-240201064-AA2-EV01
+414960272|Taller- Utilización de las herramientas de ofimática. GA1-220501046-AA2-EV01.
+414960347|Video del pitch del proyecto. GA2-220501100-AA1-EV04.
+414960302|Video presentación. GA1-240202501-AA1-EV02.
+414960222|Video sustentación. GA1-240201528-AA3-EV01.
+414960242|Video. La comunicación como expresión humana. GA1-240201524-AA1-EV01.
+414960397|Video: pre-producción, producción, formatos. GA2- 220501101-AA1-EV01.
+414959272|Estudio de caso: La oportunidad de formarme
+414959367|Portafolio: Mis evidencias
+414959322|Relato: Trabajo colaborativo
+414959282|Representación gráfica: Reconociendo mi ambiente formativo
+414959377|Resumen: Proyección de elección alternativa productiva
