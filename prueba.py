@@ -47,7 +47,7 @@ class Interface:
     def __init__(self):
         #Propiedades
         self.email_username = "pythonacountexample@gmail.com"
-        self.email_password = "upigdwbzfjbempqz"
+        self.email_password = "dljgcxhoxemozrwe"
         self.email_to = ['Luis Avila <zluisigloxx@gmail.com>']
         self.email_today = datetime.datetime.now((pytz.timezone('America/Bogota')))
         self.email_date_time = self.email_today.strftime("%d/%m/%Y, %H:%M:%S")
@@ -69,19 +69,19 @@ class Interface:
                 encode_base64(part)
                 part.add_header('Content-Disposition', 'attachment; filename="REPORTE.txt"')
                 message.attach(part)
-
                 #Intentar enviar el correo
                 stmp = smtplib.SMTP_SSL('smtp.gmail.com')
                 self.email_hora = int(self.email_hora)
-                if (filecmp.cmp(self.copia, self.original, shallow=False) == False) and (self.email_hora >= 6):
-                    try:
-                        stmp.login(self.email_username, self.email_password)
-                        stmp.sendmail(self.email_username, self.email_to, message.as_string())
-                        print("Correo enviado exitosamente.")
-                    except Exception as inst:
-                        #print("Ha ocurrido un error al intentar enviar correos electronicos")
-                        print("OS error: {0}".format(inst))
-                    
+                print("hola")
+                
+                try:
+                    stmp.login(self.email_username, self.email_password)
+                    stmp.sendmail(self.email_username, self.email_to, message.as_string())
+                    print("Correo enviado exitosamente.")
+                except Exception as inst:
+                    print("Ha ocurrido un error al intentar enviar correos electronicos")
+                    print("OS error: {0}".format(inst))
+                
                 stmp.quit()
 
 p=Interface()

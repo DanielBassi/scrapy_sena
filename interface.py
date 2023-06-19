@@ -47,7 +47,7 @@ class Interface:
     def __init__(self):
         #Propiedades
         self.email_username = "pythonacountexample@gmail.com"
-        self.email_password = "upigdwbzfjbempqz"
+        self.email_password = "dljgcxhoxemozrwe"
         self.email_to = ['Luis Avila <zluisigloxx@gmail.com>']
         self.email_today = datetime.datetime.now((pytz.timezone('America/Bogota')))
         self.email_date_time = self.email_today.strftime("%d/%m/%Y, %H:%M:%S")
@@ -174,7 +174,7 @@ class Interface:
                     try:
                         #Obtener listado de EVIDENCIAS pertenecientes ala FICHA
                         evidencia_actual = self.getDataBase( 'DB/EVIDENCIAS/'+array_ficha[0]+'.txt')
-                        time.sleep( 10 )
+                        time.sleep( 20 )
                         self.browser.get( 'https://sena.territorio.la/perfil.php?id='+ array_ficha[0] )
                         
                         #Dar clic en Evidencias
@@ -194,7 +194,7 @@ class Interface:
                             while not salida:
                                 try:
                                     #self.browser.refresh()
-                                    time.sleep( 10 )
+                                    time.sleep( 20 )
                                     self.browser.find_element_by_xpath("//a[contains(@onclick,'"+e[0]+"')]").click()
                                     salida = True
                                 except:

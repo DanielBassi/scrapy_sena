@@ -1,9 +1,8 @@
-ANALISIS Y DESARROLLO DE SOFTWARE. (2521982)|Selecciðn herramientas para prototipado GA6-220501096-AA3-EV01|1
-ANALISIS Y DESARROLLO DE SOFTWARE. (2521982)|Crear el diseðo del sitio web y/o mðviles utilizando sus componentes y tecnologðas respectivas GA6-220501096-AA3-EV02|1
-ANALISIS Y DESARROLLO DE SOFTWARE. (2521982)|Fundamentos en la implementaciðn de componentes front-end, HTML, CSS, JS GA6-220501096-AA4-EV01|1
-ANALISIS Y DESARROLLO DE SOFTWARE. (2521982)|Establecer los componentes front-end de la aplicaciðn web GA6-220501096-AA4-EV02|1
-ANALISIS Y DESARROLLO DE SOFTWARE. (2758309)|Infografía sobre la Teoría General de Sistemas. GA1-220501092-AA1-EV01|3
+ANALISIS Y DESARROLLO DE SOFTWARE. (2521983)|Crear el diseï¿½o del sitio web y/o mï¿½viles utilizando sus componentes y tecnologï¿½as respectivas GA6-220501096-AA3-EV02|1
 ANALISIS Y DESARROLLO DE SOFTWARE. (2758309)|Identificación de procesos organizacionales. GA1-220501092-AA1-EV02|1
-ANALISIS Y DESARROLLO DE SOFTWARE. (2758310)|InfografÃ­a sobre la TeorÃ­a General de Sistemas. GA1-220501092-AA1-EV01|2
-DESARROLLO MULTIMEDIA Y WEB (2721222)|Mapa conceptual - Software y servicios de Internet. GA1-220501046-AA1-EV01.|1
-DESARROLLO MULTIMEDIA Y WEB (2721223)|Mapa conceptual - Software y servicios de Internet. GA1-220501046-AA1-EV01.|1
+ANALISIS Y DESARROLLO DE SOFTWARE. (2758309)|Mapa de procesos del software a construir. GA1-220501092-AA1-EV03|3
+ANALISIS Y DESARROLLO DE SOFTWARE. (2758310)|InfografÃ­a sobre la TeorÃ­a General de Sistemas. GA1-220501092-AA1-EV01|1
+ANALISIS Y DESARROLLO DE SOFTWARE. (2758310)|IdentificaciÃ³n de procesos organizacionales.|2
+ANALISIS Y DESARROLLO DE SOFTWARE. (2758310)|Mapa de procesos del software a construir. GA1-220501092-AA1-EV03|1
+DESARROLLO MULTIMEDIA Y WEB (2721222)|Informe mejora de productos y procesos con la incorporaciÃ³n de TIC . GA1-220501046-AA3-EV01.|1
+DESARROLLO MULTIMEDIA Y WEB (2721223)|Informe mejora de productos y procesos con la incorporaciÃ³n de TIC . GA1-220501046-AA3-EV01.|2
