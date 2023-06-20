@@ -13,6 +13,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import ElementNotVisibleException
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options
 
 from selenium.common.exceptions import NoSuchElementException
 
@@ -79,7 +81,7 @@ class Interface:
         entryUser.focus()
 
         #Input Password
-        ttk.Label(self.mainframe, text="Contraseña").grid(column=1, row=4, sticky=(W, E))
+        ttk.Label(self.mainframe, text="Contrasena").grid(column=1, row=4, sticky=(W, E))
         self.passw = StringVar()
         entryPass = ttk.Entry(self.mainframe, width=20, textvariable=self.passw)
         entryPass.grid(column=1, row=5, sticky=(W, E))
@@ -135,7 +137,14 @@ class Interface:
         plataforma = platform.system()
         path_to_chromedriver = "EXE/chromedriver"
 
-        self.browser = webdriver.Chrome(executable_path = path_to_chromedriver)
+        op = Options()
+        op.binary_location = "C:\Program Files\Google\Chrome\Application\chrome.exe"
+        op.add_argument("--headless")
+        op.add_argument("--disable-gpu")
+        op.add_argument("--log-level=3")
+                                  
+        service = Service(path_to_chromedriver)
+        self.browser = webdriver.Chrome(op,service=service)
 
         #URL que se quiere abrir
         url = 'https://sena.territorio.la/index.php?login=true'
@@ -145,14 +154,14 @@ class Interface:
         salida = None
         while not salida:
             try:
-                self.browser.find_element_by_name('document').send_keys( self.user.get() )
-                self.browser.find_element_by_name('password').send_keys( self.passw.get() )
+                self.browser.find_element(By.NAME,'document').send_keys( self.user.get() )
+                self.browser.find_element(By.NAME,'password').send_keys( self.passw.get() )
                 salida = True
             except:
                 pass
 
         #Clic al bot�n de INGRESO
-        self.browser.find_element_by_css_selector('.boton_verde').click()
+        self.browser.find_element(By.CLASS_NAME,'boton_verde').click()
     
     def observador(self):
         #Autentificar al usuario
@@ -174,14 +183,14 @@ class Interface:
                     try:
                         #Obtener listado de EVIDENCIAS pertenecientes ala FICHA
                         evidencia_actual = self.getDataBase( 'DB/EVIDENCIAS/'+array_ficha[0]+'.txt')
-                        time.sleep( 20 )
+                        time.sleep( 10 )
                         self.browser.get( 'https://sena.territorio.la/perfil.php?id='+ array_ficha[0] )
                         
                         #Dar clic en Evidencias
                         salida = None
                         while not salida:
                             try:
-                                self.browser.find_element_by_id('aTareas').click()
+                                self.browser.find_element(By.ID,'aTareas').click()
                                 salida = True
                             except:
                                 pass
@@ -195,24 +204,24 @@ class Interface:
                                 try:
                                     #self.browser.refresh()
                                     time.sleep( 20 )
-                                    self.browser.find_element_by_xpath("//a[contains(@onclick,'"+e[0]+"')]").click()
+                                    self.browser.find_element(By.XPATH,"//a[contains(@onclick,'"+e[0]+"')]").click()
                                     salida = True
                                 except:
                                     print('No encuentro la evidencia '+e[1])
                                     salida = None
                                     self.browser.refresh()
+                                    self.browser.find_element(By.ID,'aTareas').click()
                             
                             #Get all elements of father div #formCalificar
                             list_tables = None
                             while not list_tables:
                                 try:
-                                    list_tables = self.browser.find_elements_by_css_selector("#formCalificar > table")
+                                    list_tables = self.browser.find_elements(By.CSS_SELECTOR,"#formCalificar > table")
                                 except NoSuchElementException:
                                     list_tables = None
                             
                             #Cantidad de Registros calificados
                             count_qualifity = 0
-                            
                             for table in list_tables:
                                 table_id = table.get_attribute('id').split('table-respuesta-', 1)[1]
                                 print('Estoy Observando la tabla '+table_id)
@@ -220,11 +229,11 @@ class Interface:
                                     intentos = None
                                     while not intentos:
                                         try:
-                                            intentos = table.find_element_by_xpath("//table[@id='table-respuesta-"+table_id+"']/tbody/tr/td[@width='30%']/p").text.split(":")[-1].strip()
+                                            intentos = table.find_element(By.XPATH,"//table[@id='table-respuesta-"+table_id+"']/tbody/tr/td[@width='30%']/p").text.split(":")[-1].strip()
                                         except NoSuchElementException:
-                                            intentos = table.find_element_by_xpath("//table[@id='table-respuesta-"+table_id+"']/tbody/tr/td[@width='30%']/span/p").text.split(":")[-1].strip()
+                                            intentos = table.find_element(By.XPATH,"//table[@id='table-respuesta-"+table_id+"']/tbody/tr/td[@width='30%']/span/p").text.split(":")[-1].strip()
                                     
-                                    nota = table.find_element_by_xpath("//table[@id='table-respuesta-"+table_id+"']/tbody/tr/td[@width='6%']/input[@type='text']")
+                                    nota = table.find_element(By.XPATH,"//table[@id='table-respuesta-"+table_id+"']/tbody/tr/td[@width='6%']/input[@type='text']")
                                     if str(nota.get_attribute('value')) == 'Sn' and int(intentos) > 0:
                                         count_qualifity = count_qualifity + 1 
                                         revisado_total = revisado_total + 1 
@@ -246,7 +255,9 @@ class Interface:
                 #Enviar correo en cada iteracion
                 if revisado_total > 0:
                     self.enviar_correo()
-        except:
+        except Exception as e:
+            print("!Ha ocurrido un eror¡ - El BOT se ha detenido.")
+            print(e)
             self.enviar_correo("!Ha ocurrido un eror! - El BOT se ha detenido.")
     
     def automatizacion(self):
@@ -260,7 +271,7 @@ class Interface:
         list_ficha_ids = None
         while not list_ficha_ids:
             try:
-                list_ficha_ids = browser.find_elements_by_css_selector('.letras1')
+                list_ficha_ids = browser.find_elements(By.CSS_SELECTOR,'.letras1')
             except NoSuchElementException:
                 list_ficha_ids = None
         
@@ -286,7 +297,7 @@ class Interface:
         list_data_select_evidencias = None
         while not list_data_select_evidencias:
             try:
-                list_data_select_evidencias = browser.find_elements_by_css_selector('.tituloTarea:first-child')
+                list_data_select_evidencias = browser.find_elements(By.CSS_SELECTOR,'.tituloTarea:first-child')
             except NoSuchElementException:
                 list_data_select_evidencias = None
                     
@@ -310,7 +321,7 @@ class Interface:
         salida = None
         while not salida:
             try:
-                browser.find_element_by_xpath("//a[contains(@onclick,'"+self.evidencia.get().split('__')[0]+"')]").click()
+                browser.find_element(By.XPATH,"//a[contains(@onclick,'"+self.evidencia.get().split('__')[0]+"')]").click()
                 salida = True
             except:
                 salida = None
@@ -319,7 +330,7 @@ class Interface:
         list_tables = None
         while not list_tables:
             try:
-                list_tables = browser.find_elements_by_css_selector("#formCalificar > table")
+                list_tables = browser.find_elements(By.CSS_SELECTOR,"#formCalificar > table")
             except NoSuchElementException:
                 list_tables = None
         
@@ -332,20 +343,20 @@ class Interface:
             intentos = None
             while not intentos:
                 try:
-                    intentos = table.find_element_by_xpath("//table[@id='table-respuesta-"+table_id+"']/tbody/tr/td[@width='30%']/p").text.split(":")[-1].strip()
+                    intentos = table.find_element(By.XPATH,"//table[@id='table-respuesta-"+table_id+"']/tbody/tr/td[@width='30%']/p").text.split(":")[-1].strip()
                 except NoSuchElementException:
-                    intentos = table.find_element_by_xpath("//table[@id='table-respuesta-"+table_id+"']/tbody/tr/td[@width='30%']/span/p").text.split(":")[-1].strip()
+                    intentos = table.find_element(By.XPATH,"//table[@id='table-respuesta-"+table_id+"']/tbody/tr/td[@width='30%']/span/p").text.split(":")[-1].strip()
             
-            nota = table.find_element_by_xpath("//table[@id='table-respuesta-"+table_id+"']/tbody/tr/td[@width='6%']/input[@type='text']")
+            nota = table.find_element(By.XPATH,"//table[@id='table-respuesta-"+table_id+"']/tbody/tr/td[@width='6%']/input[@type='text']")
     
             if nota.get_attribute('value') == 'Sn' and int(intentos) > 0:
                 nota.clear()
                 nota.send_keys(100)
-                table.find_element_by_xpath("//table[@id='table-respuesta-"+table_id+"']/tbody/tr/td[@width='6%']/input[@type='checkbox']").click()
-                table.find_element_by_xpath("//a[@href='javascript:verMasComentariosTareas("+table_id+");']").click()
-                table.find_element_by_xpath("//a[contains(@onclick, 'ComentarioAUser_"+table_id+"')]").click()
-                comentario = table.find_element_by_xpath("//*[@id='ComentarioAUser_"+table_id+"']")
-                comentario.find_element_by_class_name("commentMark").send_keys( self.obtenerComentario() )
+                table.find_element(By.XPATH,"//table[@id='table-respuesta-"+table_id+"']/tbody/tr/td[@width='6%']/input[@type='checkbox']").click()
+                table.find_element(By.XPATH,"//a[@href='javascript:verMasComentariosTareas("+table_id+");']").click()
+                table.find_element(By.XPATH,"//a[contains(@onclick, 'ComentarioAUser_"+table_id+"')]").click()
+                comentario = table.find_element(By.XPATH,"//*[@id='ComentarioAUser_"+table_id+"']")
+                comentario.find_element(By.CLASS_NAME,"commentMark").send_keys( self.obtenerComentario() )
                 count_qualifity = count_qualifity+1
 
         #messagebox.showinfo(message="Se han calificado: %i" %count_qualifity, title="Mensaje del sistema")
@@ -362,7 +373,7 @@ class Interface:
         salida = None
         while not salida:
             try:
-                self.browser.find_element_by_id('aTareas').click()
+                self.browser.find_element(By.ID,'aTareas').click()
                 salida = True
             except:
                 pass

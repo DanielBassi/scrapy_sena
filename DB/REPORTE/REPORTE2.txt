@@ -1,8 +1,14 @@
 ANALISIS Y DESARROLLO DE SOFTWARE. (2521983)|Crear el diseï¿½o del sitio web y/o mï¿½viles utilizando sus componentes y tecnologï¿½as respectivas GA6-220501096-AA3-EV02|1
-ANALISIS Y DESARROLLO DE SOFTWARE. (2758309)|Identificación de procesos organizacionales. GA1-220501092-AA1-EV02|1
-ANALISIS Y DESARROLLO DE SOFTWARE. (2758309)|Mapa de procesos del software a construir. GA1-220501092-AA1-EV03|3
+ANALISIS Y DESARROLLO DE SOFTWARE. (2521983)|Interfaces grï¿½ficas segï¿½n requerimientos del proyecto GA6-220501096-AA3-EV03|1
+ANALISIS Y DESARROLLO DE SOFTWARE. (2521983)|Mï¿½dulos de software codificados y probados GA7-220501096-AA2-EV02|1
+ANALISIS Y DESARROLLO DE SOFTWARE. (2521983)|Codificaciï¿½n de mï¿½dulos del software Stand-alone, web y mï¿½vil de acuerdo al proyecto a desarrollar GA7-220501096-AA3-EV01|1
+ANALISIS Y DESARROLLO DE SOFTWARE. (2521983)|Mï¿½dulos de software codificados y probados GA7-220501096-AA3-EV02|1
+ANALISIS Y DESARROLLO DE SOFTWARE. (2758309)|Infografía sobre la Teoría General de Sistemas. GA1-220501092-AA1-EV01|1
+ANALISIS Y DESARROLLO DE SOFTWARE. (2758309)|Identificación de procesos organizacionales. GA1-220501092-AA1-EV02|4
+ANALISIS Y DESARROLLO DE SOFTWARE. (2758309)|Mapa de procesos del software a construir. GA1-220501092-AA1-EV03|11
 ANALISIS Y DESARROLLO DE SOFTWARE. (2758310)|InfografÃ­a sobre la TeorÃ­a General de Sistemas. GA1-220501092-AA1-EV01|1
-ANALISIS Y DESARROLLO DE SOFTWARE. (2758310)|IdentificaciÃ³n de procesos organizacionales.|2
-ANALISIS Y DESARROLLO DE SOFTWARE. (2758310)|Mapa de procesos del software a construir. GA1-220501092-AA1-EV03|1
-DESARROLLO MULTIMEDIA Y WEB (2721222)|Informe mejora de productos y procesos con la incorporaciÃ³n de TIC . GA1-220501046-AA3-EV01.|1
-DESARROLLO MULTIMEDIA Y WEB (2721223)|Informe mejora de productos y procesos con la incorporaciÃ³n de TIC . GA1-220501046-AA3-EV01.|2
+ANALISIS Y DESARROLLO DE SOFTWARE. (2758310)|IdentificaciÃ³n de procesos organizacionales.|9
+ANALISIS Y DESARROLLO DE SOFTWARE. (2758310)|Mapa de procesos del software a construir. GA1-220501092-AA1-EV03|13
+DESARROLLO MULTIMEDIA Y WEB (2721222)|Taller- UtilizaciÃ³n de las herramientas de ofimÃ¡tica. GA1-220501046-AA2-EV01.|1
+DESARROLLO MULTIMEDIA Y WEB (2721222)|Informe mejora de productos y procesos con la incorporaciÃ³n de TIC . GA1-220501046-AA3-EV01.|4
+DESARROLLO MULTIMEDIA Y WEB (2721223)|Informe mejora de productos y procesos con la incorporaciÃ³n de TIC . GA1-220501046-AA3-EV01.|4
