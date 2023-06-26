@@ -50,7 +50,7 @@ class Interface:
         #Propiedades
         self.email_username = "pythonacountexample@gmail.com"
         self.email_password = "dljgcxhoxemozrwe"
-        self.email_to = ['Luis Avila <zluisigloxx@gmail.com>']
+        self.email_to = ['Luis Avila <laavila553@misena.edu.co>']
         self.email_today = datetime.datetime.now((pytz.timezone('America/Bogota')))
         self.email_date_time = self.email_today.strftime("%d/%m/%Y, %H:%M:%S")
         
@@ -139,7 +139,7 @@ class Interface:
 
         op = Options()
         op.binary_location = "C:\Program Files\Google\Chrome\Application\chrome.exe"
-        op.add_argument("--headless")
+        #op.add_argument("--headless") <= esto ejecuta el proceso sin abrir el browser
         op.add_argument("--disable-gpu")
         op.add_argument("--log-level=3")
                                   
