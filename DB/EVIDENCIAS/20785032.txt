@@ -41,3 +41,10 @@
 253170012|Mðdulos de software codificados y probados GA7-220501096-AA2-EV02
 253170027|Codificaciðn de mðdulos del software Stand-alone, web y mðvil de acuerdo al proyecto a desarrollar GA7-220501096-AA3-EV01
 253170032|Mðdulos de software codificados y probados GA7-220501096-AA3-EV02
+253170112|Desarrollar software a partir de la integración de sus módulos componentes GA8-220501096-AA1-EV01
+253170117|Módulos integrados GA8-220501096-AA1-EV02
+253170132|Taller acerca de integración, tecnologías emergentes y disruptivas 
+253170142|Taller sobre tecnologías emergentes y disruptivas
+253170137|APK (Desarrollar módulos móvil según requerimientos del proyecto) GA8-220501096-AA2-EV02
+253170147|Video exposición sobre Machine learning GA8-220501096-AA2-EV04
+253170152|Texto argumentativo sobre Blockchain GA8-220501096-AA2-EV05

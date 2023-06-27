@@ -139,7 +139,7 @@ class Interface:
 
         op = Options()
         op.binary_location = "C:\Program Files\Google\Chrome\Application\chrome.exe"
-        #op.add_argument("--headless") <= esto ejecuta el proceso sin abrir el browser
+        op.add_argument("--headless") #<= esto ejecuta el proceso sin abrir el browser
         op.add_argument("--disable-gpu")
         op.add_argument("--log-level=3")
                                   
@@ -210,6 +210,7 @@ class Interface:
                                     print('No encuentro la evidencia '+e[1])
                                     salida = None
                                     self.browser.refresh()
+                                    time.sleep( 20 )
                                     self.browser.find_element(By.ID,'aTareas').click()
                             
                             #Get all elements of father div #formCalificar
@@ -244,6 +245,7 @@ class Interface:
                             
                             #Redireccionar al listado de evidencias pertenecientes a la ficha
                             self.dirigir_a_evidencias( 'https://sena.territorio.la/perfil.php?id='+ array_ficha[0])
+                            time.sleep( 10 )
                         
                     except FileNotFoundError:
                         #messagebox.showerror(message="El archivo DB/EVIDENCIAS/"+array_ficha[0]+".txt de la FICHA "+array_ficha[1]+" no existe", title="Error del sistema")

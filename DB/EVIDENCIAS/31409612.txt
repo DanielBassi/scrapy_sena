@@ -6,3 +6,5 @@
 438234057|Infografía sobre la Teoría General de Sistemas. GA1-220501092-AA1-EV01
 438234062|Identificación de procesos organizacionales. GA1-220501092-AA1-EV02
 438234067|Mapa de procesos del software a construir. GA1-220501092-AA1-EV03
+438234082|Mapa mental sobre ingeniería de requisitos. GA1-220501092-AA2-EV01
+438234102|Diseño del instrumento de recolección de información. GA1-220501092-AA3-EV01
