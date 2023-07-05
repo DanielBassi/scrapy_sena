@@ -8,3 +8,5 @@
 438237377|Mapa de procesos del software a construir. GA1-220501092-AA1-EV03
 438237392|Mapa mental sobre ingeniería de requisitos. GA1-220501092-AA2-EV01
 438237412|Diseño del instrumento de recolección de información. GA1-220501092-AA3-EV01
+438237417|Formulación del proyecto de software. GA1-220501092-AA3-EV02
+438237422|Formulario de recolección de información. GA1- 220501092-AA3-EV03
