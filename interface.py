@@ -13,8 +13,10 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import ElementNotVisibleException
-from selenium.webdriver.chrome.service import Service
+#from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.service import Service as ChromeService
+from webdriver_manager.chrome import ChromeDriverManager
 
 from selenium.common.exceptions import NoSuchElementException
 
@@ -135,16 +137,18 @@ class Interface:
     def auth(self):
         #Configurar Platform
         plataforma = platform.system()
-        path_to_chromedriver = "EXE/chromedriver"
+        path_to_chromedriver = "EXE/chrome.exe"
 
         op = Options()
-        op.binary_location = "C:\Program Files\Google\Chrome\Application\chrome.exe"
+        #op.binary_location = "C:\Program Files\Google\Chrome\Application\chrome.exe"
         op.add_argument("--headless") #<= esto ejecuta el proceso sin abrir el browser
         op.add_argument("--disable-gpu")
         op.add_argument("--log-level=3")
                                   
-        service = Service(path_to_chromedriver)
-        self.browser = webdriver.Chrome(op,service=service)
+        #service = Service()
+        #self.browser = webdriver.Chrome(service=service, options=op)
+        self.browser = webdriver.Chrome(service=ChromeService(
+            ChromeDriverManager().install()), options=op)
 
         #URL que se quiere abrir
         url = 'https://sena.territorio.la/index.php?login=true'
